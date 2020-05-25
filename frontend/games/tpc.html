@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="/css/mdb.min.css">
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="/device-mockups/device-mockups.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -152,17 +154,35 @@
     <div class="container">
       <div class="container my-5">
 
-        <section>
+        <section class="features" id="features">
 
           <div class="card mb-4">
 
             <div class="row">
 
-              <div class="col-md-6">
-                <img class="img-fluid rounded-left" src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="project image">
+              <div class="col-md-8 p-1">
+                <div class="device-container">
+                  <div class="device-mockup iphone6_plus portrait white">
+                    <div class="device">
+                      <div class="screen">
+                        <img class="img-fluid rounded-left" src="/img/tpc-screen.jpg" alt="project image">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="/img/tpc-screen-pets.jpg" alt="screen-pets">
+                </div>
+                <div class="col-md-4 p-1">
+                  <img src="/img/tpc-screen-menu.jpg" alt="screen-menu">
+                </div>
+                <div class="col-md-4 p-1">
+                  <img src="/img/tpc-screen-play.jpg" alt="screen-play">
+                </div>
               </div>
 
-              <div class="col-md-6 p-5 align-self-center">
+              <div class="col-md-4 p-5 align-self-center">
 
                 <h5 class="font-weight-normal mb-3">Project detail</h5>
 
@@ -372,6 +392,8 @@
   <script type="text/javascript" src="/js/jquery-easing.min.js"></script>
   <!-- Custom scripts (optional) -->
   <script type="text/javascript" src="/js/new-age.min.js"></script>
+
+  </script>
 
 
 </body>
