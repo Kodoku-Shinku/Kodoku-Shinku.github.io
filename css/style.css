@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+    body {
+      width: 100%;
+      height: 100%;
+      font-family: 'Sen', sans-serif;
+    }
+
+    a {
+      color: #fdcc52;
+      transition: all .35s;
+    }
+
+    a:hover, a:focus {
+      color: #fcbd20;
+    }
+
+    /*Navbar style*/
+    #mainNav {
+    border-color: rgba(34, 34, 34, 0.05);
+    transition: all .35s;
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    }
+
+    #mainNav .navbar-brand > img:hover,
+    #mainNav .navbar-brand > img:focus:hover {
+      color: #fdcc52;
+    }
+
+    #mainNav .navbar-toggler {
+      font-size: 12px;
+      padding: 8px 10px;
+      color: #d32f2f;
+    }
+
+    #mainNav .navbar-nav > li > a {
+      font-size: 14px;
+      font-family: 'Sen', sans-serif;
+      letter-spacing: 1px;
+    }
+
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: #d32f2f;
+    }
+    /*Navbar style*/
+
+    /*Card*/
+    .card-intro .card-body {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-radius: 0 !important;
+    }
+
+    .card-intro .card-body h1 {
+      margin-bottom: 0;
+    }
+
+    .card-intro {
+      margin-top: 64px;
+    }
+
+    @media (max-width: 450px) {
+      .card-intro {
+        margin-top: 56px;
+      }
+    }
+
+    @media (min-width: 1441px) {
+      .card-intro {
+        padding-left: 0 !important;
+      }
+    }
+    /*Card*/
+
+    /*Main*/
+    main.design {
+
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: white;
+
+      background: url("../img/soufun-pattern.png"), -webkit-linear-gradient(to left, #4db6ac, #0097a7); /* For Safari 5.1 to 6.0 */
+      background: url("../img/soufun-pattern.png"), -o-linear-gradient(to left, #4db6ac, #0097a7); /* For Opera 11.1 to 12.0 */
+      background: url("../img/soufun-pattern.png"), -moz-linear-gradient(to left, #4db6ac, #0097a7); /* For Firefox 3.6 to 15 */
+      background: url("../img/soufun-pattern.png"), linear-gradient(to left, #4db6ac, #0097a7);  /* Standard syntax */
+    }
+
+    main.design .device-container {
+      max-width: 325px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    /*Main*/
+
+    /*Buttons*/
+    .btn-outline-soufun {
+      color: white;
+      border: 1px solid;
+      border-radius: 300px;
+      font-family: 'Sen', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-color: #0097a7;
+      background-color: #0097a7;
+    }
+
+    .btn-outline-soufun:hover, .btn-outline-soufun:focus, .btn-outline-soufun:active, .btn-outline-soufun.active {
+      color: #0097a7;
+      border-color: #0097a7;
+      background-color: white;
+
+    }
+    .btn-outline-cookies {
+      color: white;
+      border: 1px solid;
+      border-radius: 300px;
+      font-family: 'Sen', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-color: white;
+      background-color: black;
+    }
+
+
+    /*Buttons*/
+
+    /*Footer*/
+    #footerPage .hoverable-icon > a:hover,
+    #footerPage .hoverable-icon > a:focus:hover {
+      -webkit-transition: .4s;
+      transition: .4s;
+      color: #d32f2f;
+
+    }
+
+    #footerPage .hoverable-text > li > a:hover,
+    #footerPage .hoverable-text > li > a:focus:hover {
+      -webkit-transition: .4s;
+      transition: .4s;
+      color: #d32f2f;
+    }
+    /*Footer*/
+
+    /*Modal*/
+    #cookieModal
+    /*Modal*/
