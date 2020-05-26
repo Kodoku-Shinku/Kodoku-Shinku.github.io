@@ -342,7 +342,7 @@
 
 .device-mockup.iphone6_plus > .device > .screen,
 .device-mockup.iphone6_plus.portrait > .device > .screen {
-    top: 11.58%; bottom: 11.58%; left: 0; right: 0;
+    top: 11.58%; bottom: 11.58%; left: 5.97%; right: 5.97%;
 }
 
 .device-mockup.iphone6_plus.landscape > .device > .screen {
