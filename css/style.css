@@ -131,7 +131,7 @@
     /*Section device*/
     section.features .device-container,
     section.features .feature-item {
-      max-width: 325px;
+      max-width: 320px;
       margin: 0 auto;
     }
 
