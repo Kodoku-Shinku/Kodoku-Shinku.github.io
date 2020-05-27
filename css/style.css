@@ -125,7 +125,23 @@
       background-color: black;
     }
 
+    .btn-outline-download {
+      color: black;
+      border: 1px solid;
+      border-radius: 30px;
+      font-family: 'Sen', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-color: black;
+      background-color: white;
+    }
 
+    .btn-outline-download:hover, .btn-outline-download:focus, .btn-outline-download:active, .btn-outline-download.active {
+      color: white;
+      border-color: white;
+      background-color: black;
+
+    }
     /*Buttons*/
 
     /*Section device*/
