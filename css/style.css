@@ -198,11 +198,11 @@
     }
 
     .form-control:focus {
-      background-color: #rgba(76, 175, 80, 0.3);
+      background-color: rgba(0, 150, 136, 0.3);
     }
 
     .input-grey input::placeholder {
-      color: #424242;
+      color: #616161;
     }
     /*Newsletter form*/
 
