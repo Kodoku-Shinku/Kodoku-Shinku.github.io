@@ -127,7 +127,7 @@
 
     .btn-outline-download {
       color: black;
-      border-radius: 10px;
+      border: 2px solid;
       font-family: 'Sen', sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -139,7 +139,6 @@
       color: white;
       border-color: black;
       background-color: black;
-
     }
     /*Buttons*/
 
