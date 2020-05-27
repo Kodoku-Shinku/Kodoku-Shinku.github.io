@@ -138,7 +138,7 @@
 
     .btn-outline-download:hover, .btn-outline-download:focus, .btn-outline-download:active, .btn-outline-download.active {
       color: white;
-      border-color: white;
+      border-color: black;
       background-color: black;
 
     }
