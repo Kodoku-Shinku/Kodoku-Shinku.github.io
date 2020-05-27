@@ -178,6 +178,11 @@
     }
     /*Carousel*/
 
+    /*Apple-Android Badge*/
+    section.features .badges .badge-link img {
+      height: 60px;
+    }
+    /*Apple-Android Badge*/
 
     /*Footer*/
     #footerPage .hoverable-icon > a:hover,
