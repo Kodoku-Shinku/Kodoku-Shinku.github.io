@@ -192,6 +192,20 @@
     }
     /*Carousel*/
 
+    /*Newsletter form*/
+    .input-grey .form-control {
+      border-radius: .125rem;
+    }
+
+    .form-control:focus {
+      background-color: rgba(255,255,255,.3);
+    }
+
+    .input-grey input::placeholder {
+      color: #fff;
+    }
+    /*Newsletter form*/
+
     /*Footer*/
     #footerPage .hoverable-icon > a:hover,
     #footerPage .hoverable-icon > a:focus:hover {
