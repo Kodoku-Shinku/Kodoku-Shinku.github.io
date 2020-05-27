@@ -198,7 +198,7 @@
     }
 
     .form-control:focus {
-      background-color: rgba(0, 150, 136, 0.3);
+      background-color: rgba(96, 125, 139, 0.3);
     }
 
     .input-grey input::placeholder {
