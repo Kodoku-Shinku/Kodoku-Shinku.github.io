@@ -83,10 +83,10 @@
       padding-bottom: 100px;
       color: white;
 
-      background: url("../img/patterns/soufun-pattern.png"), -webkit-linear-gradient(to left, #4db6ac, #0097a7); /* For Safari 5.1 to 6.0 */
-      background: url("../img/patterns/soufun-pattern.png"), -o-linear-gradient(to left, #4db6ac, #0097a7); /* For Opera 11.1 to 12.0 */
-      background: url("../img/patterns/soufun-pattern.png"), -moz-linear-gradient(to left, #4db6ac, #0097a7); /* For Firefox 3.6 to 15 */
-      background: url("../img/patterns/soufun-pattern.png"), linear-gradient(to left, #4db6ac, #0097a7);  /* Standard syntax */
+      background: url("../img/patterns/soufun-pattern.png"), -webkit-linear-gradient(to left, #4db6ac, #00838f); /* For Safari 5.1 to 6.0 */
+      background: url("../img/patterns/soufun-pattern.png"), -o-linear-gradient(to left, #4db6ac, #00838f); /* For Opera 11.1 to 12.0 */
+      background: url("../img/patterns/soufun-pattern.png"), -moz-linear-gradient(to left, #4db6ac, #00838f); /* For Firefox 3.6 to 15 */
+      background: url("../img/patterns/soufun-pattern.png"), linear-gradient(to left, #4db6ac, #00838f);  /* Standard syntax */
     }
 
     main.design .device-container {
