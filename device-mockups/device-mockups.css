@@ -101,7 +101,7 @@
 
 /* MacBook 2015 */
 .device-mockup.macbook_2015 {
-  padding-bottom: 57.50%;
+  height:440px; width: 320px;
 }
 
 .device-mockup.macbook_2015 > .device,
