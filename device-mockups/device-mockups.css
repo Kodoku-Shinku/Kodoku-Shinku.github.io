@@ -101,7 +101,7 @@
 
 /* MacBook 2015 */
 .device-mockup.macbook_2015 {
-  padding-bottom: 57.50%;
+  height: 480px; width: 320px; 
 }
 
 .device-mockup.macbook_2015 > .device,
@@ -121,6 +121,10 @@
 
 .device-mockup.macbook_2015 > .device > .screen {
     top: 7.5%; bottom: 10.9%; left: 12.46%; right: 12.56%;
+}
+
+.device-mockup-macbook {
+	background-image: url("macbook_2015/silver.png");
 }
 
 
