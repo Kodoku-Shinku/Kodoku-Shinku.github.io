@@ -26,6 +26,17 @@
   <link rel="stylesheet" href="/device-mockups/device-mockups.min.css">
   <!-- Custom styles -->
   <link rel="stylesheet" href="/css/style.css">
+  <!--Unity-->
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    /*var gameInstance = UnityLoader.instantiate("gameContainer", "Build/UAM-WebGL.json", {
+      onProgress: UnityProgress
+    });*/
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/TapandFly.json", {
+      onProgress: UnityProgress
+    });
+  </script>
 </head>
 
 <body>
@@ -285,18 +296,26 @@
               <div class="col-md-12 p-5">
                 <!-- Device mockup -->
                 <div class="device-mockup macbook_2015 silver">
-                  <div class="device">
+                  <div class="device webgl-content">
                     <!--UAMI-VR Game-->
-                    <div class="screen">
-                      <video class="video-fluid z-depth-1" autoplay loop controls muted>
-                        <source src="/video/tpc.webm" type="video/webm" />
-                      </video>
+                    <div class="screen" id="gameContainer" style="width: 960px; height: 600px">
                     </div>
                     <!--UAMI-VR Game-->
                   </div>
                 </div>
                 <!-- Device mockup -->
+                <!--<div class="footer">
+                  <div class="webgl-logo"></div>
+                  <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                  <div class="title">Uami-Recorrido-Virtual</div>
+                </div>-->
+                <div class="footer">
+                  <div class="webgl-logo"></div>
+                  <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                  <div class="title">Infinite Run</div>
+                </div>
               </div>
+              <!-- Grid column -->
             </div>
             <!-- Grid row -->
           </div>
