@@ -232,8 +232,7 @@
     .webgl-content .progress.Dark .empty {background-image: url('../img/unity/progressEmpty.Dark.png');}
     .webgl-content .progress.Dark .full {background-image: url('../img/unity/progressFull.Dark.png');}
 
-    .head-mockup .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: none;}
-    .head-mockup .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: none;}
+
     /*Unity*/
 
     /*Footer*/
