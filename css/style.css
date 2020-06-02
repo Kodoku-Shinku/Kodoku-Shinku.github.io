@@ -221,6 +221,7 @@
 
     /*Unity*/
     .webgl-content * {border: 0; margin: 0; padding: 0}
+    .webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
     .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
     .webgl-content .logo {background: url('../img/unity/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
@@ -237,6 +238,18 @@
     .footer .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: left;}
     .footer .title {margin-right: 10px; float: right;}
     .footer .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: right;}
+
+    @media (max-width: 450px) {
+      .webgl-content {
+        width: 450px; height: 320px;
+      }
+    }
+
+    @media (min-width: 1441px) {
+      .card-intro {
+        padding-left: 0 !important;
+      }
+    }
     /*Unity*/
 
     /*Footer*/
