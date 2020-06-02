@@ -221,7 +221,7 @@
 
     /*Unity*/
     .webgl-content * {border: 0; margin: 0; padding: 0}
-    
+
     .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
     .webgl-content .logo {background: url('../img/unity/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
     .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
@@ -232,11 +232,11 @@
     .webgl-content .progress.Dark .empty {background-image: url('../img/unity/progressEmpty.Dark.png');}
     .webgl-content .progress.Dark .full {background-image: url('../img/unity/progressFull.Dark.png');}
 
-    .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: 'Sen', sans-serif; font-size: 18px;}
-    .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
-    .footer .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: left;}
-    .footer .title {margin-right: 10px; float: right;}
-    .footer .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: right;}
+    .head-mockup {margin-top: 5px; height: 38px; line-height: 38px; font-family: 'Sen', sans-serif; font-size: 18px;}
+    .head-mockup .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+    .head-mockup .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: left;}
+    .head-mockup .title {margin-right: 10px; float: right;}
+    .head-mockup .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: right;}
     /*Unity*/
 
     /*Footer*/
