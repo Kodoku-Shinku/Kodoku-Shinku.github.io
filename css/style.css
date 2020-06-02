@@ -246,8 +246,8 @@
     }
 
     @media (min-width: 1441px) {
-      .card-intro {
-        padding-left: 0 !important;
+      .webgl-content {
+        width: 960px; height: 600px;
       }
     }
     /*Unity*/
