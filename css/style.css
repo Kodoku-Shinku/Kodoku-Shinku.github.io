@@ -232,10 +232,7 @@
     .webgl-content .progress.Dark .empty {background-image: url('../img/unity/progressEmpty.Dark.png');}
     .webgl-content .progress.Dark .full {background-image: url('../img/unity/progressFull.Dark.png');}
 
-    .head-mockup {margin-top: 5px; height: 38px; line-height: 38px; font-family: 'Sen', sans-serif; font-size: 18px;}
-    .head-mockup .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
     .head-mockup .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: left;}
-    .head-mockup .title {margin-right: 10px; float: right;}
     .head-mockup .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: right;}
     /*Unity*/
 
