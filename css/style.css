@@ -238,18 +238,6 @@
     .footer .webgl-logo {background-image: url('../img/unity/webgl-logo.png'); width: 204px; float: left;}
     .footer .title {margin-right: 10px; float: right;}
     .footer .fullscreen {background-image: url('../img/unity/fullscreen.png'); width: 38px; float: right;}
-
-    @media (max-width: 450px) {
-      .webgl-content {
-        width: 450px; height: 320px;
-      }
-    }
-
-    @media (min-width: 1441px) {
-      .webgl-content {
-        width: 960px; height: 600px;
-      }
-    }
     /*Unity*/
 
     /*Footer*/
