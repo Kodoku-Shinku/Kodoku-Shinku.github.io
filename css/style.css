@@ -122,10 +122,10 @@
       padding-bottom: 100px;
       color: white;
 
-      background: url("../img/patterns/uamivr-pattern.png"), -webkit-linear-gradient(to left, #4db6ac, #00838f); /* For Safari 5.1 to 6.0 */
-      background: url("../img/patterns/uamivr-pattern.png"), -o-linear-gradient(to left, #4db6ac, #00838f); /* For Opera 11.1 to 12.0 */
-      background: url("../img/patterns/uamivr-pattern.png"), -moz-linear-gradient(to left, #4db6ac, #00838f); /* For Firefox 3.6 to 15 */
-      background: url("../img/patterns/uamivr-pattern.png"), linear-gradient(to left, #4db6ac, #00838f);  /* Standard syntax */
+      background: url("../img/patterns/uamivr2-pattern.png"), -webkit-linear-gradient(to left, #4db6ac, #00838f); /* For Safari 5.1 to 6.0 */
+      background: url("../img/patterns/uamivr2-pattern.png"), -o-linear-gradient(to left, #4db6ac, #00838f); /* For Opera 11.1 to 12.0 */
+      background: url("../img/patterns/uamivr2-pattern.png"), -moz-linear-gradient(to left, #4db6ac, #00838f); /* For Firefox 3.6 to 15 */
+      background: url("../img/patterns/uamivr2-pattern.png"), linear-gradient(to left, #4db6ac, #00838f);  /* Standard syntax */
     }
 
     main.design .device-container {
