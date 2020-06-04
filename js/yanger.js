@@ -40,3 +40,7 @@ $().ready(function(){
             $card.addClass('hover');
         }
     }
+
+$('#card-1').on('click' ,function(){
+        $('.card-rotating').toggleClass('flipped');
+    });
