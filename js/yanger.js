@@ -41,6 +41,6 @@ $().ready(function(){
         }
     }
 
-$('#card-1').on('click' ,function(){
-        $('.card-rotating').toggleClass('flipped');
+$('#card-2').on('click' ,function(){
+        $('.rotate-btn').toggleClass('flipped');
     });

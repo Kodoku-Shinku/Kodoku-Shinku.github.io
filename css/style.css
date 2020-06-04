@@ -130,8 +130,13 @@
       max-height: 150px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
+      -o-border-radius: 50%;
       border-radius: 50%;
       border: 5px solid rgba(255,255,255,0.5);
+    }
+
+    .flipped {
+      transform: rotateY(180deg);
     }
 
     /*Card*/
