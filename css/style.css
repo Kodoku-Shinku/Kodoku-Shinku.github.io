@@ -74,60 +74,6 @@
       }
     }
 
-    /*Rotating-card*/
-    .card-wrapper .card .back {
-
-       -webkit-transform: rotatey(-180deg);
-          transform: rotatey(-180deg);
-     }
-
-    .card-wrapper {
-      -webkit-perspective: 800;
-              perspective: 800;
-    }
-    .card-wrapper .card.flipped {
-      -webkit-transform: rotatey(-180deg);
-              transform: rotatey(-180deg);
-    }
-    .card-wrapper .card {
-        width: 270px;
-        height: 178px;
-        -webkit-transform-style: preserve-3d;
-        -webkit-transition: 0.5s;
-        transform-style: preserve-3d;
-        transition: 0.5s;
-        background-color: #fff;
-
-    }
-    .card-wrapper .card .face {
-      -webkit-backface-visibility: hidden ;
-        backface-visibility: hidden ;
-       z-index: 2;
-    }
-    .card-wrapper .card .front {
-
-       width: 270px;
-       z-index: 1;
-    }
-    .card-wrapper .flip .card .front img{
-      width: 270px;
-      height: 100%;
-    }
-    .card-wrapper .card .img {
-
-       width: 270px;
-       height: 178px;
-       z-index: 1;
-       border: 2px solid #000;
-    }
-    .card-wrapper .card .back {
-      padding-top: 10%;
-      -webkit-transform: rotatey(-180deg);
-              transform: rotatey(-180deg);
-      position: absolute;
-    }
-    /*Rotating-card*/
-
     /*Card*/
 
     /*Main*/
