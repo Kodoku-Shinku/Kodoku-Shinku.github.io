@@ -81,12 +81,12 @@
     .mini-avatar {
         position: relative;
         top: -60px;
-        margin-bottom: -20px;
+        margin-bottom: -10px;
     }
 
     .mini-avatar img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         max-width: 120px;
         max-height: 120px;
 
