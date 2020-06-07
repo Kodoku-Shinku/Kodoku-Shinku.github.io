@@ -95,14 +95,14 @@
     @media (max-width: 575px) {
       .mini-avatar {
           position: relative;
-          top: -80px;
+          top: -60px;
           margin-bottom: -10px;
       }
       .mini-avatar img {
         width: 60px;
         height: 60px;
-        max-width: 40px;
-        min-width: 40px;
+        max-width: 60px;
+        min-width: 60px;
         border: 2px solid rgba(255,255,255,0.5);
       }
     }
