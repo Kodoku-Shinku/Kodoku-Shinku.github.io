@@ -74,8 +74,9 @@
       }
     }
 
-    .w-280 {
-        width: 280px;
+    .wh-280 {
+        width: 320px;
+        height: 280px;
     }
 
     .mini-avatar {
@@ -89,9 +90,7 @@
         height: 100px;
         max-width: 100px;
         max-height: 100px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
+        
         border: 5px solid rgba(255,255,255,0.5);
     }
 
