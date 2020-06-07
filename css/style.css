@@ -74,14 +74,14 @@
       }
     }
 
-    .wh-20 {
+    .wh-200 {
         width: 200px;
     }
 
     .mini-avatar {
         position: relative;
-        top: -80px;
-        margin-bottom: -50px;
+        top: -60px;
+        margin-bottom: -20px;
     }
 
     .mini-avatar img {
