@@ -94,6 +94,7 @@
 
     @media (max-width: 575px) {
       .mini-avatar img {
+        position: relative;
         width: 60px;
         height: 60px;
         top: -60px;
