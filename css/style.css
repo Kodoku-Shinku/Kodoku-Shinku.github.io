@@ -78,6 +78,11 @@
       width: 200px;
     }
 
+    .w-40 {
+      width: 40px;
+      padding-top: -50px;
+    }
+
     /*Card*/
 
     /*Main*/
