@@ -74,11 +74,6 @@
       }
     }
 
-    .wh-200 {
-        width: 200px;
-        height: 200px;
-    }
-
     .mini-avatar {
         position: relative;
         top: -50px;
@@ -94,6 +89,10 @@
     }
 
     @media (max-width: 575px) {
+      .wh-200 {
+          width: 230px;
+          height: 230px;
+      }
       .mini-avatar {
           position: relative;
           top: -25px;
