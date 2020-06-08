@@ -80,7 +80,7 @@
 
     .mini-avatar {
         position: relative;
-        top: -120px;
+        top: -40px;
         margin-bottom: -10px;
     }
 
@@ -95,7 +95,7 @@
     @media (max-width: 575px) {
       .mini-avatar {
           position: relative;
-          top: -80px;
+          top: -10px;
           margin-bottom: -10px;
       }
       .mini-avatar img {
