@@ -81,9 +81,9 @@
     }
 
     @media (max-width: 575px) {
-      .wh-200 {
-        width: 200px;
-        height: 200px;
+      .wh-180 {
+        width: 180px;
+        height: 180px;
       }
       .mini-avatar {
           position: relative;
