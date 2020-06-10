@@ -230,12 +230,11 @@
     /*Buttons*/
 
     /*Icon social*/
-    .social-icon ul> >li > a:hover,
-    .social-icon ul> >li > a:focus:hover {
+    .social-icon >li > a:hover,
+    .social-icon >li > a:focus:hover {
       -webkit-transition: .4s;
       transition: .4s;
       color: #d32f2f;
-
     }
     /*Icon social*/
 
