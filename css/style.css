@@ -6,14 +6,6 @@
       font-family: 'Sen', sans-serif;
     }
 
-    a {
-      color: #fdcc52;
-      transition: all .35s;
-    }
-
-    a:hover, a:focus {
-      color: #fcbd20;
-    }
 
     /*Navbar style*/
     #mainNav {
@@ -236,6 +228,16 @@
       background-color: black;
     }
     /*Buttons*/
+
+    /*Icon social*/
+    .social-icon >li > a:hover,
+    .social-icon >li > a:focus:hover {
+      -webkit-transition: .4s;
+      transition: .4s;
+      color: #d32f2f;
+
+    }
+    /*Icon social*/
 
     /*Section device*/
     section.features .device-container,
