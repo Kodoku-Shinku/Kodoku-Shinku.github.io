@@ -232,7 +232,8 @@
     /*Flip social card*/
     .flip-card {
       background-color: transparent;
-
+      width: 350px;
+      height: 460px;
       perspective: 1000px;
     }
 
