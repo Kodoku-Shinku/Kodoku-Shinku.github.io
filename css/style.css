@@ -327,9 +327,9 @@
       box-shadow: box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
-    #card-2 .face-front {
-      background: white;
-      color: black;
+    #card-2 .face-front {rbavn
+      background: linear-gradient(to left, #ffffff, #d32f2f);  /* Standard syntax */
+      color: white;
     }
 
     #card-2 .face-back {
