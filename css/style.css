@@ -218,7 +218,6 @@
       .card-wrapper {
         background-color: transparent;
         width: 40%;
-        height: 80%;
         -o-perspective: 1000px;
         -webkit-perspective: 1000px;
         -moz-perspective: 1000px;
@@ -241,9 +240,9 @@
     .card-wrapper {
       background-color: transparent;
       min-width: 200px;
-      height: 480px;
+      height: 520px;
       max-width: 350px;
-      max-height: 480px;
+      max-height: 520px;
       -o-perspective: 1000px;
       -webkit-perspective: 1000px;
       -moz-perspective: 1000px;
