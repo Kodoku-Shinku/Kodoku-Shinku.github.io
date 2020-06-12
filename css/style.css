@@ -333,8 +333,8 @@
     }
 
     #card-2 .face-back {
-      background: #2980b9;
-      color: white;
+      background: white;
+      color: black;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
       -webkit-transform: rotateY(180deg);
@@ -377,7 +377,7 @@
     }
 
     #card-3 .face-back {
-      background: #2980b9;
+      background: #00838f;
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
@@ -421,7 +421,7 @@
     }
 
     #card-4 .face-back {
-      background: #2980b9;
+      background: #212121;
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
@@ -465,7 +465,7 @@
     }
 
     #card-5 .face-back {
-      background: #2980b9;
+      background: #d32f2f;
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
