@@ -288,7 +288,7 @@
       color: black;
     }
     #card-1 .face-back {
-      background: #3949ab;
+      background: #1565c0;
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
