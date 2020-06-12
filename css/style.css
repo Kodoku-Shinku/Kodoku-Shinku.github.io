@@ -214,18 +214,10 @@
       border: 5px solid rgba(255,255,255,0.5);
     }
 
-    @media (max-width: 460px) {
-      .card-wrapper {
-        min-width: 40%;
-        height: 80%;
-      }
-
-    }
-
     @media (max-width: 575px) {
       .card-wrapper {
         background-color: transparent;
-        width: 60%;
+        width: 40%;
         height: 80%;
         -o-perspective: 1000px;
         -webkit-perspective: 1000px;
@@ -248,7 +240,7 @@
 
     .card-wrapper {
       background-color: transparent;
-      min-width: 250px;
+      min-width: 200px;
       height: 460px;
       max-width: 350px;
       max-height: 460px;
