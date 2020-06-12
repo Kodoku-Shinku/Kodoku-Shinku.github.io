@@ -31,7 +31,14 @@ $().ready(function(){
 
     });
 
-$('.card-wrapper').click(function(){ //hover  can be used
-        $(this).find('.card').toggleClass('flipped');
+$('.rotate-btn-to-back').click(function(){ //hover  can be used
+		  var id = $(this).parent().parent().parent().attr('id');
+      $('#'+id).toggleClass('do-flip');
 
- });
+});
+
+$('.rotate-btn-to-front').click(function(){ //hover  can be used
+      var id = $(this).parent().parent().parent().attr('id');
+      $('#'+id).toggleClass('do-flip');
+
+});
