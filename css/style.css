@@ -249,7 +249,7 @@
         -moz-perspective: 1000px;
         perspective: 1000px;
     }
-    #card-1 {
+    #card-1, #card-2, #card-3 {
         width: 100%;
         height: 100%;
         text-align: center;
@@ -271,7 +271,7 @@
         transform: rotateY(-180deg);
       }
 
-      #card-1 .face-front, #card-1 .face-back{
+      #card-1, #card-2, #card-3 .face-front, #card-1, #card-2, #card-3 .face-back{
         width: 100%;
         height: 100%;
         position: absolute;
@@ -284,11 +284,11 @@
         -moz-box-shadow: box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         box-shadow: box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       }
-      #card-1 .face-front {
+      #card-1, #card-2, #card-3 .face-front {
           background: white;
           color: black;
       }
-      #card-1 .face-back {
+      #card-1, #card-2, #card-3 .face-back {
           background: #2980b9;
           color: white;
           border: 1px solid grey;
