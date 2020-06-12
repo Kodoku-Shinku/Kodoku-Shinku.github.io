@@ -238,7 +238,7 @@
       }
     }
 
-    .card-wrapper {
+    #team .card-wrapper {
         background-color: transparent;
         min-width: 300px;
         height: 460px;
