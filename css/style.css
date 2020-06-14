@@ -207,8 +207,8 @@
     }
 
     .mini-avatar img {
-      width: 120px;
-      height: 120px;
+      width: 50%;
+      height: 50%;
       max-width: 120px;
       max-height: 120px;
       border: 5px solid rgba(255,255,255,0.5);
@@ -229,8 +229,8 @@
         margin-bottom: -10px;
       }
       .mini-avatar img {
-        width: 60px;
-        height: 60px;
+        min-width: 80px;
+        min-height: 80px;
         border: 2px solid rgba(255,255,255,0.5);
       }
     }
