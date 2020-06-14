@@ -494,6 +494,23 @@
 
     /*Flip social card*/
 
+    /*Map contact*/
+    .map-container-section {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+
+    .map-container-section iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+    /*Map contact*/
+
     /*Section device*/
     section.features .device-container,
     section.features .feature-item {
