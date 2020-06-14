@@ -326,13 +326,13 @@
     }
 
     #card-2 .face-front {
-      background: linear-gradient(to left, #512da8, #1976d2);  /* Standard syntax */
+      background: white;
       color: black;
     }
 
     #card-2 .face-back {
-      background: white;
-      color: black;
+      background: #512da8;
+      color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
       -webkit-transform: rotateY(180deg);
