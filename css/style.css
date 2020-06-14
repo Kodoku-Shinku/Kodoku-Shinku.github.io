@@ -339,7 +339,7 @@
     }
 
     #card-2 .face-back {
-      background: linear-gradient(to bottom right, rgba(0, 150, 136, 0.3) , rgba(0, 188, 212, 0.7));
+      background: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
@@ -387,7 +387,7 @@
     }
 
     #card-3 .face-back {
-      background: linear-gradient(to bottom right, rgba(0, 150, 136, 0.3) , rgba(0, 188, 212, 0.7));
+      background: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
@@ -483,7 +483,7 @@
     }
 
     #card-5 .face-back {
-      background: linear-gradient(to bottom right, rgba(0, 150, 136, 0.3) , rgba(0, 188, 212, 0.7));
+      background: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
       color: white;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
