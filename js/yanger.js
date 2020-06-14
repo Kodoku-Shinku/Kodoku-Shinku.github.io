@@ -32,13 +32,13 @@ $().ready(function(){
     });
 
 $('.rotate-btn-to-back').click(function(){ //hover  can be used
-		  var id = $(this).parent().parent().parent().attr('id');
+		  var id = $(this).attr('data-card');
       $('#'+id).toggleClass('do-flip');
 
 });
 
 $('.rotate-btn-to-front').click(function(){ //hover  can be used
-      var id = $(this).parent().parent().parent().attr('id');
+      var id = $(this).attr('data-card');
       $('#'+id).toggleClass('do-flip');
 
 });

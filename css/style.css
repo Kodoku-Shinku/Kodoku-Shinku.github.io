@@ -211,8 +211,6 @@
       height: 120px;
       max-width: 120px;
       max-height: 120px;
-      min-width: 80px;
-      min-height: 80px;
       border: 5px solid rgba(255,255,255,0.5);
     }
 
@@ -231,15 +229,15 @@
         margin-bottom: -10px;
       }
       .mini-avatar img {
-        width: 40%;
-        height: 40%;
+        width: 60px;
+        height: 60px;
         border: 2px solid rgba(255,255,255,0.5);
       }
     }
 
     .card-wrapper {
       background-color: transparent;
-      min-width: 180px;
+      min-width: 200px;
       height: 520px;
       max-width: 350px;
       max-height: 520px;
@@ -328,13 +326,13 @@
     }
 
     #card-2 .face-front {
-      background: white;
+      background: linear-gradient(to left, #512da8, #1976d2);  /* Standard syntax */
       color: black;
     }
 
     #card-2 .face-back {
-      background: #512da8;
-      color: white;
+      background: white;
+      color: black;
       border: 1px solid grey;
       -o-transform: rotateY(180deg);
       -webkit-transform: rotateY(180deg);
