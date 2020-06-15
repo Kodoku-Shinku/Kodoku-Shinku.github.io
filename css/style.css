@@ -540,11 +540,10 @@
       color: white;
       width: 30px;
       height: 30px;
-      padding: 6px 0px;
-      border-radius: 15px;
-      font-size: 8px;
+      padding: 10px 16px;
+      border-radius: 35px;
+      font-size: 12px;
       text-align: center;
-      text-decoration: none;
     }
 
     /*contact*/
