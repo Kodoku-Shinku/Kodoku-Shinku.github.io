@@ -494,7 +494,7 @@
 
     /*Flip social card*/
 
-    /*Map contact*/
+    /*contact*/
     .map-container-section {
       overflow: hidden;
       padding-bottom: 56.25%;
@@ -509,7 +509,16 @@
       width: 100%;
       position: absolute;
     }
-    /*Map contact*/
+
+    .bg-card {
+      background-color: rgba(126, 123, 215, 0.2);
+    }
+
+    .md-form label {
+      color: #ffffff;
+    }
+
+    /*contact*/
 
     /*Section device*/
     section.features .device-container,

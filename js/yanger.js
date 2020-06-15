@@ -43,3 +43,5 @@ $('.rotate-btn-to-front').click(function(){ //hover  can be used
       $('#'+id).toggleClass('do-flip');
 
 });
+
+new WOW().init();
