@@ -164,6 +164,15 @@
       background-color: white;
     }
 
+    .btn-outline-contact {
+      color: white;
+      border: 2px solid;
+      font-family: 'Sen', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background-color: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
+    }
+
     .btn-outline-download:hover, .btn-outline-download:focus, .btn-outline-download:active, .btn-outline-download.active {
       color: white;
       border-color: black;
@@ -511,6 +520,10 @@
     }
 
     .bg-card {
+      background-color: rgba(126, 123, 215, 0.2);
+    }
+
+    .bg-info {
       background-color: rgba(126, 123, 215, 0.2);
     }
 
