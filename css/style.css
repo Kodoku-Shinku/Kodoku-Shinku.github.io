@@ -129,7 +129,7 @@
     .btn-outline-soufun {
       color: white;
       border: 1px solid;
-      border-radius: 300px;
+      border-radius: 80px;
       font-family: 'Sen', sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -146,7 +146,7 @@
     .btn-outline-cookies {
       color: white;
       border: 1px solid;
-      border-radius: 300px;
+      border-radius: 80px;
       font-family: 'Sen', sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -164,6 +164,12 @@
       background-color: white;
     }
 
+    .btn-outline-download:hover, .btn-outline-download:focus, .btn-outline-download:active, .btn-outline-download.active {
+      color: white;
+      border-color: black;
+      background-color: black;
+    }
+
     .btn-outline-contact {
       color: white;
       border: 2px solid;
@@ -171,13 +177,14 @@
       font-family: 'Sen', sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase;
+      border-color: #1976d2;
       background-color: #1976d2;
     }
 
-    .btn-outline-download:hover, .btn-outline-download:focus, .btn-outline-download:active, .btn-outline-download.active {
-      color: white;
-      border-color: black;
-      background-color: black;
+    .btn-outline-contact:hover, .btn-outline-contact:focus, .btn-outline-contact:active, .btn-outline-contact.active {
+      color: #1976d2;
+      border-color: white;
+      background-color: white;
     }
     /*Buttons*/
 
