@@ -182,9 +182,9 @@
     }
 
     .btn-outline-contact:hover, .btn-outline-contact:focus, .btn-outline-contact:active, .btn-outline-contact.active {
-      color: #1976d2;
-      border-color: white;
-      background-color: white;
+      color: white;
+      border-color: #1976d2;
+      background-color: #1976d2;
     }
     /*Buttons*/
 
@@ -531,12 +531,18 @@
       background-color: rgba(126, 123, 215, 0.2);
     }
 
-    .bg-info-contact {
-      background-color: rgba(126, 123, 215, 0.2);
-    }
-
     .md-form label {
       color: #ffffff;
+    }
+
+    .btn-contact {
+      background-color: #1976d2;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
     }
 
     /*contact*/
