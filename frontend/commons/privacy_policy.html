@@ -1,35 +1,356 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SouFUNStudio</title>
+  <meta name="description" content="The fun of make games">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="videogames, games, soufunstudio, studio, videogamestudio, mexico, fungames, gameonline, playgame, play, fun">
+  <meta name="author" content="German David Perez Morales, Roberto T. Jimenez">
+  <meta name="generator" content="Atom 1.46.0 x64">
+  <meta name="application-name" content="SouFunStudio">
+  <!--SF Icon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon/soufun-ico64.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Sen -->
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<p><strong>POLÍTICA DE PRIVACIDAD</strong></p>
-<p>&nbsp;</p>
-<p>El presente Política de Privacidad establece los términos en que SouFUN Studio usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web y/o sus aplicaciones. Esta compañía está comprometida con la
-  seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta
-  Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.</p>
-<p><strong>Información que es recogida</strong></p>
-<p>Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,&nbsp; información de contacto como&nbsp; su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información
-  específica para procesar algún pedido o realizar una entrega o facturación.</p>
-<p><strong>Uso de la información recogida</strong></p>
-<p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios. &nbsp;Es posible que
-  sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos
-  electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.</p>
-<p>SouFUN Studio está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.</p>
-<p><strong>Cookies</strong></p>
-<p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también
-  facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.</p>
-<p>Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede
-  eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la
-  proporcione directamente, <a href="https://brightononline.ca/es/" target="_blank">visitas a una web </a>. Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un
-  mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.</p>
-<p><strong>Enlaces a Terceros</strong></p>
-<p>Este sitio web y/o las aplicaciones de SouFUN Studio pudiern contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es
-  redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los
-  consulte para confirmar que usted está de acuerdo con estas.</p>
-<p><strong>Control de su información personal</strong></p>
-<p>En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web y/o aplicaciones.&nbsp; Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede
-  marcar o desmarcar la opción de recibir información por correo electrónico. &nbsp;En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.</p>
-<p>Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.</p>
-<p>SouFUN Studio Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.</p>
+
+<body>
+  <!-- Start of project here-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
+  <!--Main Navigation-->
+  <header id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg px-5 navbar-dark elegant-color-dark scrolling-navbar" id="mainNav">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect js-scroll-trigger" href="#page-top">
+          <img src="img/brand/soufunlogo-variant-2-icon.png" height="20" width="60" alt="brand">
+        </a>
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="index.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="store.html">Store</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link waves-effect js-scroll-trigger" href="#page-top">Contact<span class="sr-only">(current)</span></a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-language"></i> Language </a>
+              <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item" href="http://soufunstudio.com/es">Spanish</a>
+                <a class="dropdown-item" href="http://soufunstudio.com/jp">Japanese</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/SouFUNStudio" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Intro -->
+    <div class="card card-intro">
+      <div class="card-body white-text teal lighten-2 text-center">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12">
+            <!-- Brand -->
+            <a class="navbar-brand">
+              <img src="img/brand/soufun-brand.png" height="200" alt="logo">
+            </a>
+          </div>
+        </div>
+        <!--Grid row-->
+
+
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Facebook-->
+            <a class="fb-like" data-href="http://soufunstudio.com" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <p class="mb-0 text-center">
+            <h2><strong>The FUN of make games.</strong></h2>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Twitter-->
+            <a href="https://twitter.com/SouFUNStudio?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    <!-- Intro -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="main-design px-5">
+    <!--Main container-->
+    <div class="container-fluid">
+
+      <div class="container mt-5 elegant-color-dark">
+
+        <!-- Grid row -->
+        <div class="row d-flex justify-content-center">
+          <!-- Grid column -->
+          <div class="col-lg-12 text-white">
+            <h2 class="uppercase mb-4 pt-5"><strong>privacy policy</strong></h2>
+
+            <p class="lead mx-auto w-responsive">This Privacy Policy establishes the terms in which SouFUN Studio
+              uses and protects the information that is provided by its users when using its
+              website and / or its applications. This company is committed to the security of
+              its user´s data. When we ask you to fill in the personal information fields with
+              which you can be identified, we do so ensuring that it will only be used in
+              accordance with the terms of this document. However, this Privacy Policy may change
+              over time or be updated for what we recommend and we emphasize continually reviewing
+              this page to ensure that you agree with such changes.</p>
+
+            <h2 class="uppercase mb-4 pt-5"><strong>information that is collected</strong></h2>
+
+            <p class="lead mx-auto w-responsive">Our website may collect personal information such as:
+              Name, contact information such as your email address and demographic information. Likewise,
+              when necessary, specific information may be required to process an order or make a delivery or billing.</p>
+
+            <h2 class="uppercase mb-4 pt-5"><strong>use of collected information</strong></h2>
+
+            <p class="lead mx-auto w-responsive">Our website uses the information to provide the best possible service,
+              particularly to keep track of users, orders if applicable, and to improve our products and services.
+              It is possible that emails may be sent periodically through our site with special offers, new products
+              and other advertising information that we consider relevant to you or that may provide you with benefits,
+              these emails will be sent to the address that you provide and may be canceled anytime.</p>
+
+            <p class="lead mx-auto w-responsive">SouFUN Studio is highly committed to fulfilling the commitment to keep
+              your information secure. We use the most advanced systems and constantly update them to ensure that there
+              is no unauthorized access.</p>
+
+            <h2 class="uppercase mb-4 pt-5"><strong>cookies</strong></h2>
+
+            <p class="lead mx-auto w-responsive">A cookie refers to a file that is sent with the purpose of requesting
+              permission to be stored on your computer. By accepting this file, the cookie is created and then serves
+              to have information regarding web traffic, and also facilitates future visits to a website. recurrent.
+              Another function that cookies have is that with them the websites can recognize you individually and
+              therefore provide you with the best personalized service on their website.</p>
+
+            <p class="lead mx-auto w-responsive">Our website uses cookies to identify the pages that are visited and
+              their frequency. This information is used only for statistical analysis and then the information is
+              permanently removed. You can delete cookies at any time from your computer. However, cookies help to
+              provide a better service for the websites, you do not give access to information from your computer
+              or from you, unless you want it and provide it directly, <a href="https://brightononline.ca/es/" target="_blank" class="badge badge-primary text-wrap">visits to a website</a>.
+              You can accept or deny the use of cookies, however most browsers accept cookies automatically as it
+              serves to have a better web service. You can also change the settings on your computer to decline cookies.
+              If they are declined you may not be able to use some of our services.</p>
+
+            <h2 class="uppercase mb-4 pt-5"><strong>links to third parties</strong></h2>
+
+            <p class="lead mx-auto w-responsive">This website and / or the SouFUN Studio applications may contain
+              links to other sites that may be of interest to you. Once you click on these links and leave our page,
+              we no longer have control over the site you are redirected to and therefore we are not responsible for
+              the terms or privacy or the protection of your data on those other third party sites. These sites are
+              subject to their own privacy policies, so it is recommended that you consult them to confirm that you
+              agree with them.</p>
+
+            <h2 class="uppercase mb-4 pt-5"><strong>control of your personal information</strong></h2>
+
+            <p class="lead mx-auto w-responsive">At any time you can restrict the collection or use of personal information
+              that is provided to our website and / or applications. Every time you are asked to fill out a form, such as
+              the user registration, you can check or uncheck the option to receive information by email. In case you have
+              checked the option to receive our newsletter or advertisement you can cancel it at any time.</p>
+
+            <p class="lead mx-auto w-responsive">This company will not sell, assign or distribute the personal information
+              that is collected without your consent, unless required by a judge with a court order.</p>
+
+            <p class="lead mx-auto w-responsive">SouFUN Studio reserves the right to change the terms of this
+              Privacy Policy at any time.</p>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+
+
+    </div>
+    <!--Main container-->
+  </main>
+  <!--Main layout-->
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small elegant-color-dark pt-4" id="footerPage">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase">Connect with us! <i class="fas fa-heart red-text mx-1"></i> </h5>
+          <!-- Grid column -->
+          <div class="col-md-12 py-4">
+            <div class="mb-5 hoverable-icon">
+
+              <!-- Facebook -->
+              <a class="fb-ic" href="https://www.facebook.com/soufunstudio/" target="_blank">
+                <i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic" href="https://twitter.com/SouFUNStudio" target="_blank">
+                <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Instagram -->
+              <a class="ins-ic" href="https://www.instagram.com/soufunstudio/" target="_blank">
+                <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-uppercase">Contact Us</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="https://web.whatsapp.com" target="_blank"><i class="fas fa-phone-alt"></i> +521 5515990967</a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">contact@soufunstudio.com</a>
+            </li>
+            <li>
+              <a href="contact.html">Av. San Francisco Tlaltenco
+                Ciudad de México, Cd. de México</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5>SouFunStudio</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="frontend/commons/privacy_policy.html">Privacy policy</a>
+            </li>
+            <li>
+              <a href="frontend/commons/terms_of_use.html">Terms of use</a>
+            </li>
+            <li>
+              <a href="contact.html">Sitemap</a>
+            </li>
+            <li>
+              <a href="frontend/info/faqs.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 list-unstyled">
+      <ul class="list-inline hoverable-text">
+        <li class="list-inline-item">
+          <a href="http://soufunstudio.com">© 2020 Copyright: soufunstudio.com</a>
+        </li>
+        <li class="list-inline-item">
+          <img src="img/brand/soufun-solid-logo.png" class="img-fluid" alt="soufun-solid-logo"></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL" target="_blank">Sen font is licensed under the OFL.</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <!-- Custom scripts (optional) -->
+  <script type="text/javascript" src="js/new-age.min.js"></script>
+
+
+</body>
+
+</html>
