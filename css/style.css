@@ -537,12 +537,14 @@
 
     .btn-contact {
       background-color: #1976d2;
-      border: none;
       color: white;
-      padding: 20px;
+      width: 30px;
+      height: 30px;
+      padding: 6px 0px;
+      border-radius: 15px;
+      font-size: 8px;
       text-align: center;
       text-decoration: none;
-      border-radius: 50%;
     }
 
     /*contact*/
