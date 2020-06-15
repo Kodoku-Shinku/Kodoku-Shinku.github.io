@@ -178,13 +178,13 @@
       letter-spacing: 2px;
       text-transform: uppercase;
       border-color: white;
-      background-color: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
+      background-color: #1976d2;
     }
 
     .btn-outline-contact:hover, .btn-outline-contact:focus, .btn-outline-contact:active, .btn-outline-contact.active {
       color: white;
-      border-color: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
-      background-color: linear-gradient(to bottom right, #1976d2 , rgba(0, 188, 212, 0.7));
+      border-color: #1976d2;
+      background-color: #1976d2;
     }
     /*Buttons*/
 
