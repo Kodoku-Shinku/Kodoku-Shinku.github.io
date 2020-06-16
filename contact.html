@@ -189,40 +189,49 @@
             <div class="col-lg-5 mb-lg-0 pb-lg-3 mb-4">
 
               <!-- Form with header -->
-              <div class="card bg-card wow fadeInRight" data-wow-delay="0.3s">
-                <div class="card-body">
-                  <!--Header-->
-                  <div class="text-center">
-                    <h3 class="white-text font-weight-bold">
-                      <i class="fa fa-user white-text"></i> Contact us</h3>
-                    <hr class="hr-light">
+              <form id="contact-form" name="contact-form" action="mail.php" method="post">
+                <!--Card-->
+                <div class="card bg-card wow fadeInRight" data-wow-delay="0.3s">
+                  <!-- Card Body-->
+                  <div class="card-body">
+                    <!--Header-->
+                    <div class="text-center">
+                      <h3 class="white-text font-weight-bold">
+                        <i class="fa fa-user white-text"></i> Contact us</h3>
+                      <hr class="hr-light">
+                    </div>
+                    <!-- Body -->
+                    <div class="md-form">
+                      <i class="fas fa-user prefix white-text"></i>
+                      <input type="text" id="name" name="name" class="white-text form-control">
+                      <label for="name">Your name</label>
+                    </div>
+                    <div class="md-form">
+                      <i class="fas fa-envelope prefix white-text"></i>
+                      <input type="text" id="email" name="email" class="white-text form-control">
+                      <label for="email">Your email</label>
+                    </div>
+                    <div class="md-form">
+                      <i class="fas fa-tag prefix white-text"></i>
+                      <input type="text" id="subject" name="subject" class="white-text form-control">
+                      <label for="subject">Subject</label>
+                    </div>
+                    <div class="md-form">
+                      <i class="fas fa-pencil-alt prefix white-text"></i>
+                      <textarea type="text" id="message" name="message" class="white-text form-control md-textarea" rows="3"></textarea>
+                      <label for="message">Send message</label>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-outline-contact btn-rounded" onclick="document.getElementById('contact-form').submit();">Submit</button>
+                    </div>
+                    <div class="status"></div>
+                    <!--Body-->
                   </div>
-                  <!-- Body -->
-                  <div class="md-form">
-                    <i class="fas fa-user prefix white-text"></i>
-                    <input type="text" id="form-name" class="white-text form-control">
-                    <label for="form-name">Your name</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-envelope prefix white-text"></i>
-                    <input type="text" id="form-email" class="white-text form-control">
-                    <label for="form-email">Your email</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-tag prefix white-text"></i>
-                    <input type="text" id="form-Subject" class="white-text form-control">
-                    <label for="form-Subject">Subject</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-pencil-alt prefix white-text"></i>
-                    <textarea id="form-text" class="white-text form-control md-textarea" rows="3"></textarea>
-                    <label for="form-text">Send message</label>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btn-outline-contact btn-rounded">Submit</button>
-                  </div>
+                  <!--Card Body-->
                 </div>
-              </div>
+                <!--Card-->
+              </form>
+
               <!-- Form with header -->
 
             </div>
