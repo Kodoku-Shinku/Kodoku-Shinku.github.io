@@ -32,14 +32,8 @@ $().ready(function(){
     });
 
 //Rotating-cards
-$('.rotate-btn-to-back').click(function(){ //hover  can be used
+$('.rotate-btn').click(function(){ //hover  can be used
 		  var id = $(this).attr('data-card');
-      $('#'+id).toggleClass('do-flip');
-
-});
-
-$('.rotate-btn-to-front').click(function(){ //hover  can be used
-      var id = $(this).attr('data-card');
       $('#'+id).toggleClass('do-flip');
 
 });
