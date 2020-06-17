@@ -38,4 +38,9 @@ $('.rotate-btn').click(function(){ //hover  can be used
 
 });
 
+// popovers Initialization
+$(function () {
+$('[data-toggle="popover"]').popover()
+})
+
 new WOW().init();
