@@ -345,6 +345,12 @@ main.design .device-container {
 }
 
 /*Flip social card*/
+/*Service card*/
+.bg-service-card {
+  background: linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.3));
+}
+
+/*Service card*/
 /*contact*/
 .map-container-section {
   overflow: hidden;
