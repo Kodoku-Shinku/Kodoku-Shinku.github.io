@@ -347,178 +347,178 @@ main.design .device-container {
 /*Flip social card*/
 /*Service card*/
 .bg-service-card {
-  background: linear-gradient(to bottom right, rgba(0, 188, 212, 0.7), rgba(0, 150, 136, 0.3));
-}
-
-/*Service card*/
-/*contact*/
-.map-container-section {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-container-section iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.bg-card {
-  background-color: rgba(126, 123, 215, 0.2);
-}
-
-.md-form label {
-  color: #ffffff;
-}
-
-.btn-contact {
-  background-color: #1976d2;
-  color: white;
-  width: 50px;
-  height: 50px;
-  padding: 16px 10px;
-  border-radius: 50px;
-  text-align: center;
-}
-
-/*contact*/
-/*Section device*/
-section.features .device-container,
-section.features .feature-item {
-  max-width: 320px;
-  margin: 0 auto;
-}
-
-section.features .device-container {
-  margin-bottom: 100px;
-}
-
-@media (min-width: 992px) {
-  section.features .device-container {
-    margin-bottom: 0;
+  background: linear-gradient(to bottom right, #b2ebf2, rgba(0, 188, 212, 0.7);
   }
-}
 
-/*Section device*/
-/*Carousel*/
-.carousel-multi-item.v-2 .carousel-inner .carousel-item.active,
-.carousel-multi-item.v-2 .carousel-item-next,
-.carousel-multi-item.v-2 .carousel-item-prev {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
+  /*Service card*/
+  /*contact*/
+  .map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
 
-.carousel-multi-item.v-2 .carousel-item-right.active,
-.carousel-multi-item.v-2 .carousel-item-next {
-  -webkit-transform: translateX(50%);
-  -ms-transform: translateX(50%);
-  transform: translateX(50%);
-}
+  .map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 
-.carousel-multi-item.v-2 .carousel-item-left.active,
-.carousel-multi-item.v-2 .carousel-item-prev {
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
+  .bg-card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
 
-.carousel-multi-item.v-2 .carousel-item-right,
-.carousel-multi-item.v-2 .carousel-item-left {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-}
+  .md-form label {
+    color: #ffffff;
+  }
 
-/*Carousel*/
-/*Newsletter form*/
-.input-grey .form-control {
-  border-radius: .125rem;
-}
+  .btn-contact {
+    background-color: #1976d2;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 16px 10px;
+    border-radius: 50px;
+    text-align: center;
+  }
 
-.form-control:focus {
-  background-color: rgba(96, 125, 139, 0.3);
-}
+  /*contact*/
+  /*Section device*/
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: 320px;
+    margin: 0 auto;
+  }
 
-.input-grey input::placeholder {
-  color: #616161;
-}
+  section.features .device-container {
+    margin-bottom: 100px;
+  }
 
-/*Newsletter form*/
-/*Unity*/
-.webgl-content * {
-  border: 0;
-  margin: 0;
-  padding: 0
-}
+  @media (min-width: 992px) {
+    section.features .device-container {
+      margin-bottom: 0;
+    }
+  }
 
-.webgl-content .logo, .progress {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+  /*Section device*/
+  /*Carousel*/
+  .carousel-multi-item.v-2 .carousel-inner .carousel-item.active,
+  .carousel-multi-item.v-2 .carousel-item-next,
+  .carousel-multi-item.v-2 .carousel-item-prev {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 
-.webgl-content .logo {
-  background: url('../img/unity/progressLogo.Light.png') no-repeat center / contain;
-  width: 154px;
-  height: 130px;
-}
+  .carousel-multi-item.v-2 .carousel-item-right.active,
+  .carousel-multi-item.v-2 .carousel-item-next {
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
 
-.webgl-content .progress {
-  height: 18px;
-  width: 141px;
-  margin-top: 90px;
-}
+  .carousel-multi-item.v-2 .carousel-item-left.active,
+  .carousel-multi-item.v-2 .carousel-item-prev {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
 
-.webgl-content .progress .empty {
-  background: url('../img/unity/progressEmpty.Light.png') no-repeat right / cover;
-  float: right;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-}
+  .carousel-multi-item.v-2 .carousel-item-right,
+  .carousel-multi-item.v-2 .carousel-item-left {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-.webgl-content .progress .full {
-  background: url('../img/unity/progressFull.Light.png') no-repeat left / cover;
-  float: left;
-  width: 0%;
-  height: 100%;
-  display: inline-block;
-}
+  /*Carousel*/
+  /*Newsletter form*/
+  .input-grey .form-control {
+    border-radius: .125rem;
+  }
 
-.webgl-content .logo.Dark {
-  background-image: url('../img/unity/progressLogo.Dark.png');
-}
+  .form-control:focus {
+    background-color: rgba(96, 125, 139, 0.3);
+  }
 
-.webgl-content .progress.Dark .empty {
-  background-image: url('../img/unity/progressEmpty.Dark.png');
-}
+  .input-grey input::placeholder {
+    color: #616161;
+  }
 
-.webgl-content .progress.Dark .full {
-  background-image: url('../img/unity/progressFull.Dark.png');
-}
+  /*Newsletter form*/
+  /*Unity*/
+  .webgl-content * {
+    border: 0;
+    margin: 0;
+    padding: 0
+  }
 
-/*Unity*/
-/*Footer*/
-#footerPage .hoverable-icon>a:hover,
-#footerPage .hoverable-icon>a:focus:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #d32f2f;
-}
+  .webgl-content .logo, .progress {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
-#footerPage .hoverable-text>li>a:hover,
-#footerPage .hoverable-text>li>a:focus:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #d32f2f;
-}
+  .webgl-content .logo {
+    background: url('../img/unity/progressLogo.Light.png') no-repeat center / contain;
+    width: 154px;
+    height: 130px;
+  }
 
-/*Footer*/
+  .webgl-content .progress {
+    height: 18px;
+    width: 141px;
+    margin-top: 90px;
+  }
+
+  .webgl-content .progress .empty {
+    background: url('../img/unity/progressEmpty.Light.png') no-repeat right / cover;
+    float: right;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .webgl-content .progress .full {
+    background: url('../img/unity/progressFull.Light.png') no-repeat left / cover;
+    float: left;
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .webgl-content .logo.Dark {
+    background-image: url('../img/unity/progressLogo.Dark.png');
+  }
+
+  .webgl-content .progress.Dark .empty {
+    background-image: url('../img/unity/progressEmpty.Dark.png');
+  }
+
+  .webgl-content .progress.Dark .full {
+    background-image: url('../img/unity/progressFull.Dark.png');
+  }
+
+  /*Unity*/
+  /*Footer*/
+  #footerPage .hoverable-icon>a:hover,
+  #footerPage .hoverable-icon>a:focus:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #d32f2f;
+  }
+
+  #footerPage .hoverable-text>li>a:hover,
+  #footerPage .hoverable-text>li>a:focus:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #d32f2f;
+  }
+
+  /*Footer*/
