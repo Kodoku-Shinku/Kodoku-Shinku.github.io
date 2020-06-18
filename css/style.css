@@ -350,7 +350,10 @@ main.design .device-container {
 /*Flip social card*/
 /*Service card*/
 .bg-service-card {
-  background: linear-gradient(to bottom right, #4db6ac, #4fc3f7);
+  background: -webkit-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: -o-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: -moz-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
 }
 
 /*Service card*/
