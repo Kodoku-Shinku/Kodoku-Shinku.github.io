@@ -336,13 +336,9 @@ main.design .device-container {
 #card-4 .face-back,
 #card-5 .face-back {
   background: -webkit-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
-  /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
-  /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
-  /* Standard syntax */
   color: white;
   border: 1px solid grey;
   -o-transform: rotateY(180deg);
@@ -354,7 +350,7 @@ main.design .device-container {
 /*Flip social card*/
 /*Service card*/
 .bg-service-card {
-  background: linear-gradient(to bottom right, #7b1fa2, rgba(0, 188, 212, 0.7));
+  background: linear-gradient(to bottom right, #4db6ac, #4fc3f7);
 }
 
 /*Service card*/
