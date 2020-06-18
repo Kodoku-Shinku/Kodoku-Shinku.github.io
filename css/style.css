@@ -354,7 +354,7 @@ main.design .device-container {
 /*Flip social card*/
 /*Service card*/
 .bg-service-card {
-  background: rgba(0, 188, 212, 0.7);
+  background: linear-gradient(to bottom right, #7b1fa2, rgba(0, 188, 212, 0.7));
 }
 
 /*Service card*/
