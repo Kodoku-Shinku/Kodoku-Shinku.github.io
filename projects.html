@@ -154,7 +154,7 @@
     <div class="container">
 
       <!--Grid row-->
-      <div class="container my-5 py-5 elegant-color-dark">
+      <div class="container my-5 elegant-color-dark">
 
         <!-- Section: Projects Content -->
         <section class="text-white text-center">
@@ -187,7 +187,8 @@
                   Every time a card is flipped, it is announced and the participants must mark that card in their
                   table if they have it, but be careful!! if you do not mark your card when you must you cannot win
                   the game, the first player to mark all the cards on their table wins the game.</p>
-                <a class="btn btn-outline-lottery btn-md"> View more</a>
+                <!-- Button trigger modal -->
+                <a class="btn btn-outline-lottery btn-md" data-toggle="modal" data-target="#lotteryModal"> View more</a>
               </div>
 
             </div>
@@ -224,6 +225,37 @@
         <!-- Section: Projects Content -->
       </div>
       <!-- Grid row -->
+
+
+
+
+      <!-- Central Modal Small -->
+      <div class="modal fade" id="lotteryModal" tabindex="-1" role="dialog" aria-labelledby="lotteryLabel" aria-hidden="true">
+
+        <!-- Change class .modal-sm to change the size of the modal -->
+        <div class="modal-dialog modal-fluid" role="document">
+
+
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title w-100" id="lotteryLabel">Lottery Game</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Central Modal Small -->
+
+
+
     </div>
     <!--Main container-->
   </main>
