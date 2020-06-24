@@ -426,12 +426,49 @@ main.design .device-container {
 }
 
 /*contact*/
-/*Project counter*/
+/*Project*/
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 559px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 700px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
 #time-counter {
   font-size: 5rem;
 }
 
-/*Project counter*/
+/*Project*/
 /*Section device*/
 section.features .device-container,
 section.features .feature-item {
