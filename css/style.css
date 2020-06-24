@@ -6,6 +6,10 @@ body {
   font-family: 'Sen', sans-serif;
 }
 
+.view {
+  height: 100%;
+}
+
 /*Navbar style*/
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
