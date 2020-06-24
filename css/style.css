@@ -6,10 +6,6 @@ body {
   font-family: 'Sen', sans-serif;
 }
 
-.view {
-  height: 100%;
-}
-
 /*Navbar style*/
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -430,6 +426,12 @@ main.design .device-container {
 }
 
 /*contact*/
+/*Project counter*/
+#time-counter {
+  font-size: 5rem;
+}
+
+/*Project counter*/
 /*Section device*/
 section.features .device-container,
 section.features .feature-item {
