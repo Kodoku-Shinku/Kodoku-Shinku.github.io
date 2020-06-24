@@ -198,6 +198,40 @@ main.design .device-container {
   background-color: #1976d2;
 }
 
+.btn-outline-lottery {
+  color: white;
+  border: 2px solid;
+  border-radius: 80px;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-color: #ff8f00;
+  background-color: transparent;
+}
+
+.btn-outline-lottery:hover, .btn-outline-lottery:focus, .btn-outline-lottery:active, .btn-outline-lottery.active {
+  color: white;
+  border-color: #ff8f00;
+  background-color: #ff8f00;
+}
+
+.btn-outline-nekketsu {
+  color: white;
+  border: 2px solid;
+  border-radius: 80px;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-color: #039be5;
+  background-color: transparent;
+}
+
+.btn-outline-nekketsu:hover, .btn-outline-nekketsu:focus, .btn-outline-nekketsu:active, .btn-outline-nekketsu.active {
+  color: white;
+  border-color: #039be5;
+  background-color: #039be5;
+}
+
 /*Buttons*/
 /*Card*/
 .card-intro .card-body {
