@@ -189,7 +189,7 @@
                   table if they have it, but be careful!! if you do not mark your card when you must you cannot win
                   the game, the first player to mark all the cards on their table wins the game.</p>
                 <!-- Button trigger modal -->
-                <a class="btn btn-outline-lottery btn-md" data-toggle="modal" data-target="#projectModal" onclick="countdown(82);"> View more</a>
+                <a class="btn btn-outline-lottery btn-md" data-toggle="modal" data-target="#lotteryModal"> View more</a>
               </div>
 
             </div>
@@ -215,7 +215,7 @@
                   using strategies such as hiding in the environment, camouflaging himself or even obtaining
                   equipment that is in the area, and all this in kawaii style with small but dangerous characters
                   ready to be number one in the world ranking.</p>
-                <a class="btn btn-outline-nekketsu btn-md" data-toggle="modal" data-target="#projectModal" onclick="countdown(155);"> View more</a>
+                <a class="btn btn-outline-nekketsu btn-md" data-toggle="modal" data-target="#nekketsuModal"> View more</a>
               </div>
 
             </div>
@@ -227,20 +227,19 @@
       </div>
       <!-- Grid row -->
 
-      <!-- Central Modal -->
-      <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectLabel" aria-hidden="true">
-
-        <!-- Change class .modal-sm to change the size of the modal -->
-        <div class="modal-dialog modal-fluid modal-dialog-scrollable" role="document">
+      <!-- Lottery Modal -->
+      <div class="modal fade" id="lotteryModal" tabindex="-1" role="dialog" aria-labelledby="projectLabel" aria-hidden="true">
+        <!-- Change class .modal-lg to change the size of the modal -->
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title w-100" id="projectLabel">Lottery Game</h4>
+              <h4 class="modal-title w-100 text-dark" id="projectLabel">Game Project Date</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <!-- Full Page Intro -->
+              <!-- Body Modal -->
               <div class="view">
                 <video class="embed-responsive-item" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
                   <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
@@ -248,22 +247,18 @@
                 <!-- Mask & flexbox options-->
                 <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
                   <!-- Content -->
-                  <div class="text-center white-text mx-5 wow fadeIn">
+                  <div class="rounded shadow text-center white-text mx-5 p-5 mb-5 wow fadeIn">
+                    <!-- Countdown 1-->
                     <h1 class="display-4 mb-4"><strong>Coming Soon!</strong></h1>
-                    <!-- Time Counter -->
-                    <p id="time-counter" class="border border-light my-4"></p>
-                    <h4 class="mb-4"><strong>We're working hard to finish the development of this site.</strong></h4>
-                    <h4 class="mb-4 d-none d-md-block"><strong>Until then have a look at our Free Bootstrap 4 tutorials</strong></h4>
-                    <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
-                      free tutorial
-                      <i class="fas fa-graduation-cap ml-2"></i>
-                    </a>
+                    <div id="clock-a" class="countdown-circles d-flex flex-wrap justify-content-center pt-4"></div>
+                    <h4 class="mb-4 pt-4"><strong>We're working hard to finish the development of this game.</strong></h4>
+                    <h4 class="mb-4 d-none d-md-block"><strong>Until then have a look at our other projects.</strong></h4>
                   </div>
                   <!-- Content -->
                 </div>
                 <!-- Mask & flexbox options-->
               </div>
-              <!-- Full Page Intro -->
+              <!-- Body Modal -->
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-close-modal btn-sm" data-dismiss="modal">Close</button>
@@ -271,7 +266,48 @@
           </div>
         </div>
       </div>
-      <!-- Central Modal -->
+      <!-- Lottery Modal -->
+
+      <!-- Nekketsu Modal -->
+      <div class="modal fade" id="nekketsuModal" tabindex="-1" role="dialog" aria-labelledby="projectLabel" aria-hidden="true">
+        <!-- Change class .modal-lg to change the size of the modal -->
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title w-100 text-dark" id="projectLabel">Game Project Date</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Body Modal -->
+              <div class="view">
+                <video class="embed-responsive-item" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+                  <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
+                </video>
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                  <!-- Content -->
+                  <div class="rounded shadow text-center white-text mx-5 p-5 mb-5 wow fadeIn">
+                    <!-- Countdown 1-->
+                    <h1 class="display-4 mb-4"><strong>Coming Soon!</strong></h1>
+                    <div id="clock-b" class="countdown-circles d-flex flex-wrap justify-content-center pt-4"></div>
+                    <h4 class="mb-4 pt-4"><strong>We're working hard to finish the development of this game.</strong></h4>
+                    <h4 class="mb-4 d-none d-md-block"><strong>Until then have a look at our other projects.</strong></h4>
+                  </div>
+                  <!-- Content -->
+                </div>
+                <!-- Mask & flexbox options-->
+              </div>
+              <!-- Body Modal -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-close-modal btn-sm" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Nekketsu Modal -->
 
 
 
@@ -388,6 +424,7 @@
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <!-- Custom scripts (optional) -->
   <script type="text/javascript" src="js/new-age.min.js"></script>
+  <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
   <script type="text/javascript" src="js/countdown.js"></script>
 
   <!--Modal: modalCookie-->
