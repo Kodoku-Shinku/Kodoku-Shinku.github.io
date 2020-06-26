@@ -232,6 +232,23 @@ main.design .device-container {
   background-color: #039be5;
 }
 
+.btn-close-modal {
+  color: white;
+  border: 2px solid;
+  border-radius: 80px;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-color: #0097a7;
+  background-color: transparent;
+}
+
+.btn-close-modal:hover, .btn-close-modal:focus, .btn-close-modal:active, .btn-close-modal.active {
+  color: #0097a7;
+  border-color: white;
+  background-color: #0097a7;
+}
+
 /*Buttons*/
 /*Card*/
 .card-intro .card-body {
@@ -427,28 +444,6 @@ main.design .device-container {
 
 /*contact*/
 /*Project*/
-.modal-body .view {
-  height: 100%;
-}
-
-@media (max-width: 559px) {
-  .modal-body .view {
-    height: 1000px;
-  }
-}
-
-@media (min-width: 560px) and (max-width: 740px) {
-  .modal-body .view {
-    height: 700px;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-  .modal-body .view {
-    height: 600px;
-  }
-}
-
 #time-counter {
   font-size: 5rem;
 }
