@@ -1,4 +1,4 @@
-(function($) {
+$(document).ready(function(){
   "use strict"
 
   /* 1. Preloader */
@@ -43,4 +43,4 @@
     $('[data-toggle="popover"]').popover()
   })
 
-})(jQuery);
+});
