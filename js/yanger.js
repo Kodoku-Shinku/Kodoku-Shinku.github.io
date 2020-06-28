@@ -43,6 +43,4 @@
     $('[data-toggle="popover"]').popover()
   })
 
-  new WOW().init();
-
 })(jQuery);
