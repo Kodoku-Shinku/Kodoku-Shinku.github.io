@@ -201,6 +201,12 @@ main.design .device-container {
   max-width: 55px
 }
 
+.preloader .pere-text strong {
+  font-weight: 800;
+  color: #dca73a;
+  text-transform: uppercase
+}
+
 @-webkit-keyframes zoom {
   0% {
     -webkit-transform: rotate(0deg);
