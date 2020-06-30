@@ -673,6 +673,15 @@ section.features .device-container {
 }
 
 /*Newsletter form*/
+/*Accordion*/
+.accordion-gradient-bg {
+  background: -webkit-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: -o-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: -moz-linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+  background: linear-gradient(to bottom right, #1976d2, rgba(0, 188, 212, 0.7));
+}
+
+/*Accordion*/
 /*Unity*/
 .webgl-content * {
   border: 0;
