@@ -198,7 +198,7 @@ main.design .device-container {
 }
 
 .preloader .preloader-img img {
-  max-width: 160px
+  max-width: 120px
 }
 
 @-webkit-keyframes zoom {
