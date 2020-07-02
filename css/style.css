@@ -410,7 +410,7 @@ main.design .device-container {
 /*Flip social card*/
 .mini-avatar {
   position: relative;
-  top: -50px;
+  top: -55px;
   margin-bottom: -10px;
 }
 
@@ -434,7 +434,7 @@ main.design .device-container {
 
   .mini-avatar {
     position: relative;
-    top: -25px;
+    top: -40px;
     margin-bottom: -10px;
   }
 
@@ -543,7 +543,7 @@ main.design .device-container {
 }
 
 .card .card-header-primary {
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+  box-shadow: 0 5px 20px 0px rgba(0, 188, 212, 0.2), 0 13px 24px -11px #1976d2;
 }
 
 .card-header {
