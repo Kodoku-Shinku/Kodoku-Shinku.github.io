@@ -539,7 +539,7 @@ main.design .device-container {
 /*Service card*/
 /*contact*/
 .card .card-header-primary {
-  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+  background: linear-gradient(60deg, #1976d2, rgba(0, 188, 212, 0.7));
 }
 
 .card .card-header-primary {
@@ -555,10 +555,6 @@ main.design .device-container {
 
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-}
-
-.card-header+.list-group .list-group-item:first-child {
-  border-top: 0;
 }
 
 .card-contact .card-header {
