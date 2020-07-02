@@ -538,6 +538,37 @@ main.design .device-container {
 
 /*Service card*/
 /*contact*/
+.card .card-header-primary {
+  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+
+.card .card-header-primary {
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header+.list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-login .card-header {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -40px;
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+
 .map-container-section {
   overflow: hidden;
   padding-bottom: 56.25%;
