@@ -378,6 +378,18 @@ main.design .device-container {
   background-color: #0097a7;
 }
 
+.btn-contact {
+  background-color: #1976d2;
+  color: white;
+  width: 50px;
+  height: 50px;
+  padding: 16px 10px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.andyloyola93 {}
+
 /*Buttons*/
 /*Card*/
 .card-intro .card-body {
@@ -586,16 +598,6 @@ main.design .device-container {
 
 .md-form label {
   color: #ffffff;
-}
-
-.btn-contact {
-  background-color: #1976d2;
-  color: white;
-  width: 50px;
-  height: 50px;
-  padding: 16px 10px;
-  border-radius: 50px;
-  text-align: center;
 }
 
 /*contact*/
