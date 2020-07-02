@@ -543,14 +543,14 @@ main.design .device-container {
 }
 
 .card .card-header-primary {
-  box-shadow: 0 5px 20px 0px rgba(0, 188, 212, 0.7), 0 13px 24px -11px #1976d2;
+  box-shadow: 0 5px 20px 0px rgba(0, 188, 212, 0.7), 0 13px 24px -11px rgba(63, 81, 181, 0.3);
 }
 
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 188, 212, 0.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .card-header:first-child {
