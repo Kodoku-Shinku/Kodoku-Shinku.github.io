@@ -30,12 +30,13 @@
   <script src="webgl-uamivr/TemplateData/UnityProgress.js"></script>
   <script src="webgl-uamivr/Build/UnityLoader.js"></script>
   <script>
-    /*var gameInstance = UnityLoader.instantiate("gameContainer", "Build/UAM-WebGL.json", {
-      onProgress: UnityProgress
-    });*/
-    var unityInstance = UnityLoader.instantiate("unityContainer", "webgl-uamivr/Build/TapandFly.json", {
+    var gameInstance = UnityLoader.instantiate("gameContainer", "webgl-uamivr/Build/UAM-WebGL.json", {
       onProgress: UnityProgress
     });
+
+    /*var unityInstance = UnityLoader.instantiate("unityContainer", "webgl-uamivr/Build/TapandFly.json", {
+      onProgress: UnityProgress
+    });*/
   </script>
 </head>
 
@@ -86,10 +87,10 @@
               <a class="nav-link waves-effect" href="/services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="/blog.html">Blog</a>
+              <a class="nav-link waves-effect disabled" href="/blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="/store.html">Store</a>
+              <a class="nav-link waves-effect disabled" href="/store.html">Store</a>
             </li>
             <li class="nav-item">
               <a class="nav-link waves-effect" href="/contact.html">Contact</a>
@@ -320,18 +321,12 @@
                 <div class="device-mockup macbook_2015 silver">
                   <div class="device webgl-content">
                     <!--UAMI-VR Game-->
-                    <div class="screen" id="unityContainer">
+                    <div class="screen" id="gameContainer">
                     </div>
                     <!--UAMI-VR Game-->
                   </div>
                 </div>
                 <!-- Device mockup -->
-                <!--<div class="footer">
-                  <div class="webgl-logo"></div>
-                  <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-                  <div class="title">Uami-Recorrido-Virtual</div>
-                </div>-->
-
               </div>
               <!-- Grid column -->
             </div>
@@ -349,7 +344,7 @@
               <!-- Grid column -->
               <div class="col-md-6 text-center py-1">
                 <span class="mb-4 dark-grey-text text-justify pr-3">Fullscreen mode</span>
-                <a class="fullscreen" onclick="unityInstance.SetFullscreen(1)">
+                <a class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
                   <i class="fas fa-arrows-alt fa-2x cyan darken-2 rounded"></i>
                 </a>
               </div>
