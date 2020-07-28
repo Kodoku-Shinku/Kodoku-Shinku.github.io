@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SouFUN Studio</title>
+  <meta name="description" content="The fun of make games">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="videogames, games, soufunstudio, soufun studio, soufun, studio, videogamestudio, mexico, fungames, gameonline, playgame, play, fun">
+  <meta name="author" content="German David Perez Morales, Roberto T. Jimenez">
+  <meta name="generator" content="Atom 1.46.0 x64">
+  <meta name="application-name" content="SouFunStudio">
+  <!--SF Icon -->
+  <link rel="shortcut icon" type="image/png" href="/img/favicon/soufun-ico64.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Sen -->
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="/css/mdb.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+          <img src="/img/brand/soufun-preloader.png" class="spin-loader" alt="load-soufun-logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader Start -->
+
+  <!-- Start of project here-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0"></script>
+  <!--Main Navigation-->
+  <header id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg px-5 navbar-dark elegant-color-dark scrolling-navbar" id="mainNav">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect js-scroll-trigger" href="#page-top">
+          <img src="/img/brand/soufunlogo-variant-2-icon.png" height="20" width="60" alt="brand">
+        </a>
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link waves-effect teal lighten-2 rounded js-scroll-trigger" href="#page-top">Juegos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="projects.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="services.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect disabled" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect disabled" href="store.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="contact.html">Contacto</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-language"></i> Lenguaje </a>
+              <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item" href="/">English</a>
+                <a class="dropdown-item" href="/jp">日本語</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/SouFUNStudio" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Intro -->
+    <div class="card card-intro">
+      <div class="card-body white-text teal lighten-2 text-center">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12">
+            <!-- Brand -->
+            <a class="navbar-brand">
+              <img src="/img/brand/soufun-brand.png" height="200" alt="logo">
+            </a>
+          </div>
+        </div>
+        <!--Grid row-->
+
+
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Facebook-->
+            <a class="fb-like" data-href="http://soufunstudio.com" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <p class="mb-0 text-center">
+            <h2><strong>The FUN of make games.</strong></h2>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Twitter-->
+            <a href="https://twitter.com/SouFUNStudio?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false" data-lang="es"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    <!-- Intro -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="main-design px-5">
+    <!--Main container-->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="container my-5 py-5 z-depth-1 elegant-color-dark">
+        <!--Section: Content-->
+        <section class="px-md-8 mx-md-5 text-center text-lg-left">
+
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center text-center">
+            <!--Grid column-->
+            <div class="col-md-9 mb-4 mb-md-0">
+              <h6 class="font-weight-bold text-center text-white text-uppercase small mb-4">juegos</h6>
+              <h2 class="font-weight-bold text-white">¡Creamos juegos divertidos!</h2>
+
+              <p class="lead text-white mb-4">SouFUNStudio es una empresa mexicana que crea diversión,
+                videojuegos de alta calidad para hacer crecer la industria en México;
+                dispuestos a aprender y enseñar a trabajar en general!.</p>
+            </div>
+            <!--Grid column-->
+
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-md-12 mb-4 mb-md-0">
+              <!--Image-->
+              <div class="view overlay">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid wow jackInTheBox" alt="photo">
+                <a class="js-scroll-trigger" href="#page-top">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+
+
+        </section>
+        <!--Section: Content-->
+      </div>
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInLeftBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/xord-icon.jpg" class="img-fluid card-img-top" alt="xord-icon">
+              <a href="frontend/games/xord.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">Xplode or die</h4>
+              <!--Text-->
+              <p class="card-text black-text">Un juego 2D tipo casual game, disponible para Android,
+                protege a los gelatux indefensos.</p>
+              <a href="frontend/games/xord.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInDownBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/tpc-icon.jpg" class="img-fluid card-img-top" alt="tpc-icon">
+              <a href="frontend/games/tpc.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">Tiny Pets Collector</h4>
+              <!--Text-->
+              <p class="card-text black-text">La realidad aumentada nunca habia sido tan divertida como ahora.
+                Con TPC escanea, desbloquea, y juega.</p>
+              <a href="frontend/games/tpc.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInRightBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/inkuneko-icon.jpg" class="img-fluid card-img-top" alt="inkuneko-icon">
+              <a href="frontend/games/inkuneko_ar.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">Inkuneko AR</h4>
+              <!--Text-->
+              <p class="card-text black-text">Inkuneko AR, es una aplicación con realidad aumentada que
+                dará vida a tus camisas, desbloquea nuevos diseños y diviértete.</p>
+              <a href="frontend/games/inkuneko_ar.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInLeftBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/uamivr-icon.jpg" class="img-fluid card-img-top" alt="uamivr-icon">
+              <a href="frontend/games/uami_vr.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">UAM-I VR</h4>
+              <!--Text-->
+              <p class="card-text black-text">Surge para que más personas conozcan la universidad UAM
+                Iztapalapa de una manera innovadora y divertida en un entorno 3D interactivo.</p>
+              <a href="frontend/games/uami_vr.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInUpBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/quimiuami-icon.jpg" class="img-fluid card-img-top" alt="quimiuami-icon">
+              <a href="frontend/games/quimiuami.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">Quimiuami</h4>
+              <!--Text-->
+              <p class="card-text black-text">Una aplicación con realidad aumentada que
+                permite visualizar los átomos de la tabla periódica
+                así como su información más relevante.</p>
+              <a href="frontend/games/quimiuami.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!--Card-->
+          <div class="card wow fadeInRightBig">
+            <!--Card image-->
+            <div class="view overlay zoom">
+              <img src="/img/icon-game/edulandar-icon.jpg" class="img-fluid card-img-top" alt="edulandar-icon">
+              <a href="frontend/games/eduland_ar.html">
+                <div class="mask rgba-red-light"></div>
+              </a>
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title black-text">Eduland</h4>
+              <!--Text-->
+              <p class="card-text black-text">Eduland es una aplicación enfocada en
+                los niños de entre 6 y 12 años para reforzar su
+                aprendizaje de forma divertida a través de la tecnología.</p>
+              <a href="frontend/games/eduland_ar.html" class="btn btn-outline-soufun waves-effect">DIVIERTETE!</a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!--Main container-->
+
+  </main>
+  <!--Main layout-->
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small elegant-color-dark pt-4" id="footerPage">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase">Conéctate con nosotros! <i class="fas fa-heart red-text mx-1"></i> </h5>
+          <!-- Grid column -->
+          <div class="col-md-12 py-4">
+            <div class="mb-5 hoverable-icon">
+
+              <!-- Facebook -->
+              <a class="fb-ic" href="https://www.facebook.com/soufunstudio/" target="_blank">
+                <i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic" href="https://twitter.com/SouFUNStudio" target="_blank">
+                <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Instagram -->
+              <a class="ins-ic" href="https://www.instagram.com/soufunstudio/" target="_blank">
+                <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-uppercase">Contáctanos</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="https://web.whatsapp.com" target="_blank"><i class="fas fa-phone-alt"></i> +521 5515990967</a>
+            </li>
+            <li>
+              <a href="mailto:contact@soufunstudio.com">contact@soufunstudio.com</a>
+            </li>
+            <li>
+              <a href="contact.html">Av. San Francisco Tlaltenco
+                Ciudad de México, Cd. de México</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5>SouFun Studio</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="frontend/commons/privacy_policy.html">Política de privacidad</a>
+            </li>
+            <li>
+              <a href="frontend/commons/terms_of_use.html">Términos de uso</a>
+            </li>
+            <li>
+              <a href="contact.html">Mapa del sitio</a>
+            </li>
+            <li>
+              <a href="frontend/info/faqs.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 list-unstyled">
+      <ul class="list-inline hoverable-text">
+        <li class="list-inline-item">
+          <a href="http://soufunstudio.com">© 2020 Copyright: soufunstudio.com</a>
+        </li>
+        <li class="list-inline-item">
+          <img src="/img/brand/soufun-solid-logo.png" class="img-fluid" alt="soufun-solid-logo"></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL" target="_blank">La fuente Sen tiene licencia bajo OFL.</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/js/mdb.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+  <!-- Custom scripts (optional) -->
+  <script type="text/javascript" src="/js/new-age.min.js"></script>
+  <script type="text/javascript" src="/js/yanger.js"></script>
+
+  <!--Modal: modalCookie-->
+  <div class="modal fade bottom cookieModal" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="cookieModalLabel" aria-hidden="true" data-backdrop="true">
+    <div class="modal-dialog modal-frame modal-bottom modal-notify modal-info" role="document">
+      <!--Content-->
+      <div class="modal-content elegant-color-dark">
+        <!--Body-->
+        <div class="modal-body">
+          <div class="row d-flex justify-content-center align-items-center">
+
+            <p class="pt-3 pr-2 white-text">Utilizamos cookies para mejorar la experiencia del sitio web.</p>
+
+            <a type="button" href="frontend/commons/privacy_statement.html" class="btn btn-outline-cookies waves-effect">Saber más<i class="fas fa-book ml-1"></i></a>
+            <a type="button" id="cookieModalConsent" class="btn btn-outline-cookies waves-effect" data-dismiss="modal">Si, gracias</a>
+          </div>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: modalCookie-->
+  <script type="text/javascript" src="/js/cookie-consent.js"></script>
+
+
+</body>
+
+</html>
