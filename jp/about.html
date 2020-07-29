@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SouFUN Studio</title>
+  <meta name="description" content="The fun of make games">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="videogames, games, soufunstudio, soufun studio, soufun, studio, videogamestudio, mexico, fungames, gameonline, playgame, play, fun">
+  <meta name="author" content="German David Perez Morales, Roberto T. Jimenez">
+  <meta name="generator" content="Atom 1.46.0 x64">
+  <meta name="application-name" content="SouFunStudio">
+  <!--SF Icon -->
+  <link rel="shortcut icon" type="image/png" href="/img/favicon/soufun-ico64.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Sen -->
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="/css/mdb.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+          <img src="/img/brand/soufun-preloader.png" class="spin-loader" alt="load-soufun-logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader Start -->
+
+  <!-- Start of project here-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0"></script>
+  <!--Main Navigation-->
+  <header id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg px-5 navbar-dark elegant-color-dark scrolling-navbar" id="mainNav">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect js-scroll-trigger" href="#page-top">
+          <img src="/img/brand/soufunlogo-variant-2-icon.png" height="20" width="60" alt="brand">
+        </a>
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="index.html">Juegos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link waves-effect teal lighten-2 rounded js-scroll-trigger" href="#page-top">Nosotros<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="projects.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="services.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect disabled" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect disabled" href="store.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="contact.html">Contacto</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-language"></i> Lenguaje </a>
+              <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item" href="/">English</a>
+                <a class="dropdown-item" href="/jp">日本語</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/SouFUNStudio" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/soufunstudio/" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Intro -->
+    <div class="card card-intro">
+      <div class="card-body white-text teal lighten-2 text-center">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12">
+            <!-- Brand -->
+            <a class="navbar-brand">
+              <img src="/img/brand/soufun-brand.png" height="200" alt="logo">
+            </a>
+          </div>
+        </div>
+        <!--Grid row-->
+
+
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Facebook-->
+            <a class="fb-like" data-href="http://soufunstudio.com" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <p class="mb-0 text-center">
+            <h2><strong>The FUN of make games.</strong></h2>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!--Twitter-->
+            <a href="https://twitter.com/SouFUNStudio?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false" data-lang="es"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    <!-- Intro -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="main-design px-5">
+    <!--Main container-->
+    <div class="container-fluid">
+
+      <!--About container-->
+      <div class="container-fluid my-5">
+
+        <!--Section: Mision and Vision-->
+        <section>
+          <!--Card-->
+          <div class="card mb-4 elegant-color-dark">
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Device column-->
+              <div class="col-md-9 pt-5">
+                <h6 class="font-weight-bold text-center text-white text-uppercase small mb-4">Nosotros</h6>
+                <h2 class="text-center text-white mb-4 pb-2">Mision</h2>
+                <p class="lead text-center text-white w-responsive mx-auto mb-5">Crear diversión, videojuegos de alta calidad para hacer
+                  crecer la industria en México; dispuestos a aprender y enseñar a trabajar en general!.</p>
+              </div>
+              <!--Device column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-md-9 p-5">
+                <h2 class="text-center text-white mb-4 pb-2">Vision</h2>
+                <p class="lead text-center text-white w-responsive mx-auto mb-3">Ser el estudio líder en el desarrollo de
+                  videojuegos, realidad virtual y aumentada en México.</p>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-md-9 p-5 text-center">
+                <!-- Section heading -->
+                <h2 class="text-center text-white mb-4 pb-2">Nuestro equipo</h2>
+                <!-- Section description -->
+                <p class="lead w-responsive text-white mx-auto">Conoce un poco más sobre nosotros, lo que nos gusta hacer y lo que hacemos en general.</p>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+
+          </div>
+          <!--Card-->
+        </section>
+        <!--Section: Mision and Vision-->
+
+        <!--Container Team Cards-->
+        <div class="container my-5">
+
+          <!--Section: Team-->
+          <section class="text-center dark-grey-text" id="team">
+
+            <!-- Grid row -->
+            <div class="row d-flex justify-content-center">
+
+              <!-- Grid column -->
+              <div class="col-md-4 mb-4 text-center">
+
+                <!-- Rotating card -->
+                <div class="card-wrapper">
+                  <div id="card-1" class="card card-rotating text-center wow fadeInLeftBig">
+                    <!-- Front Side -->
+                    <div class="face-front">
+                      <!-- Image -->
+                      <div class="card-up mx-auto">
+                        <img class="img-fluid mx-auto" src="/img/team/back.jpg" alt="Team member card image">
+                      </div>
+                      <!-- Avatar -->
+                      <div class="mini-avatar mx-auto">
+                        <img src="/img/team/german-perez.jpg" class="rounded-circle img-fluid" alt="photo-ger">
+                      </div>
+                      <!-- Content -->
+                      <div class="card-body pt-0">
+                        <h4 class="font-weight-bold mt-1 mb-3">German Pérez</h4>
+                        <h6 class="font-weight-bold dark-grey-text">SouFUN Co-Fundador</h6>
+                        <h6><a href="mailto:germanperez@soufunstudio.com" class="font-weight-bold dark-grey-text small">germanperez@soufunstudio.com</a></h6>
+                        <p><small class=" text-muted">Desarrollador Unity</small></p>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn grey-text" data-card="card-1">
+                          <i class="fas fa-redo-alt grey-text mr-2"></i>Más Info</a>
+                      </div>
+                    </div>
+                    <!-- Front Side -->
+                    <!-- Back Side -->
+                    <div class="face-back">
+                      <!-- Content -->
+                      <div class="card-body">
+                        <!-- Content -->
+                        <h4 class="font-weight-bold mt-4 mb-2">
+                          <strong>Sobre mí</strong>
+                        </h4>
+                        <hr>
+                        <p>Apasionado por los idiomas y también por los lenguajes de programación. Mis fortalezas son
+                          Unity, Blender y Substance Painter, java y python. La programación es un arte en el que
+                          el límite es tu imaginación.
+                        </p>
+                        <hr>
+                        <!-- Social Icons -->
+                        <ul class="list-inline list-unstyled text-white">
+                          <li class="list-inline-item">
+                            <a href="https://www.facebook.com/gerdav2926?ref=bookmarks" target="_blank" class="p-2 fa-lg fb-ic text-reset">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/ger_dav/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com/kodokushinku" target="_blank" class="p-2 fa-lg tw-ic text-reset">
+                              <i class="fab fa-twitter"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://github.com/Kodoku-Shinku" target="_blank" class="p-2 fa-lg git-ic text-reset">
+                              <i class="fab fa-github"> </i>
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn text-white" data-card="card-1">
+                          <i class="fas fa-redo-alt text-white mr-2"></i>Regresar</a>
+                      </div>
+                    </div>
+                    <!-- Back Side -->
+
+
+                  </div>
+                </div>
+                <!-- Rotating card -->
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 mb-4">
+                <!-- Rotating card -->
+                <div class="card-wrapper">
+                  <div id="card-2" class="card card-rotating text-center wow fadeInDownBig">
+                    <!-- Front Side -->
+                    <div class="face-front">
+                      <!-- Image -->
+                      <div class="card-up mx-auto">
+                        <img class="img-fluid mx-auto" src="/img/team/back.jpg" alt="Team member card image">
+                      </div>
+                      <!-- Avatar -->
+                      <div class="mini-avatar mx-auto">
+                        <img src="/img/team/roberto-torres.jpg" class="rounded-circle img-fluid" alt="photo-rob">
+                      </div>
+                      <!-- Content -->
+                      <div class="card-body pt-0">
+                        <h4 class="font-weight-bold mt-1 mb-3">Roberto Torres</h4>
+                        <h6 class="font-weight-bold dark-grey-text">SouFUN Co-Fundador</h6>
+                        <h6><a href="mailto:robertotorres@soufunstudio.com" class="font-weight-bold dark-grey-text small">robertotorres@soufunstudio.com</a></h6>
+                        <p><small class="text-muted">Desarrollador Unity</small></p>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn grey-text" data-card="card-2">
+                          <i class="fas fa-redo-alt grey-text mr-2"></i>Más Info</a>
+                      </div>
+                    </div>
+                    <!-- Front Side -->
+                    <!-- Back Side -->
+                    <div class="face-back">
+                      <!-- Content -->
+                      <div class="card-body">
+                        <!-- Content -->
+                        <h4 class="font-weight-bold mt-4 mb-2">
+                          <strong>Sobre mí</strong>
+                        </h4>
+                        <hr>
+                        <p>Desarrollador de videojuegos, programo lo que sea necesario para crear
+                          Cosas asombrosas. Soy bueno en Unity 3D, Java, Python.
+                        </p>
+                        <hr>
+                        <!-- Social Icons -->
+                        <ul class="list-inline list-unstyled text-white">
+                          <li class="list-inline-item">
+                            <a href="https://www.facebook.com/robtj090" target="_blank" class="p-2 fa-lg fb-ic text-reset">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/rob_tj090/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com/rob_tj090" target="_blank" class="p-2 fa-lg tw-ic text-reset">
+                              <i class="fab fa-twitter"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://github.com/RobertoTorresJim" target="_blank" class="p-2 fa-lg git-ic text-reset">
+                              <i class="fab fa-github"> </i>
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn text-white" data-card="card-2">
+                          <i class="fas fa-redo-alt text-white mr-2"></i>Regresar</a>
+                      </div>
+                    </div>
+                    <!-- Back Side -->
+                  </div>
+                </div>
+                <!-- Rotating card -->
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 mb-4 text-center">
+                <!-- Rotating card -->
+                <div class="card-wrapper">
+                  <div id="card-3" class="card card-rotating text-center wow fadeInRightBig">
+                    <!-- Front Side -->
+                    <div class="face-front">
+                      <!-- Image -->
+                      <div class="card-up mx-auto">
+                        <img class="img-fluid mx-auto" src="/img/team/back.jpg" alt="Team member card image">
+                      </div>
+                      <!-- Avatar -->
+                      <div class="mini-avatar mx-auto">
+                        <img src="/img/team/eli-roots.jpg" class="rounded-circle img-fluid" alt="photo-eli">
+                      </div>
+                      <!-- Content -->
+                      <div class="card-body pt-0">
+                        <h4 class="font-weight-bold mt-1 mb-3">Elizabeth Librado</h4>
+                        <h6 class="font-weight-bold dark-grey-text">SouFUN Co-Fundadora</h6>
+                        <h6><a href="mailto:eli.so.12@soufunstudio.com" class="font-weight-bold dark-grey-text small">eli.so.12@soufunstudio.com</a></h6>
+                        <p><small class="text-muted">Diseñadora Gráfica</small></p>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn grey-text" data-card="card-3">
+                          <i class="fas fa-redo-alt grey-text mr-2"></i>Más Info</a>
+                      </div>
+                    </div>
+                    <!-- Front Side -->
+                    <!-- Back Side -->
+                    <div class="face-back">
+                      <!-- Content -->
+                      <div class="card-body">
+                        <!-- Content -->
+                        <h4 class="font-weight-bold mt-4 mb-2">
+                          <strong>Sobre mí</strong>
+                        </h4>
+                        <hr>
+                        <p>Mis programas favoritos son Photoshop, 2D Tupi, Paintool Sai y After Effects.
+                          Amo la animación y los juegos de Kirby y Crash, leer ciencia ficción y estoy enamorada
+                          de la musica en formato vinilo.
+                        </p>
+                        <hr>
+                        <!-- Social Icons -->
+                        <ul class="list-inline list-unstyled text-white">
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/ellisroots/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram mr-2"></i>elisroots
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/ilaxolotl/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram mr-2"></i>ilaxolotl
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn text-white" data-card="card-3">
+                          <i class="fas fa-redo-alt text-white mr-2"></i>Regresar</a>
+                      </div>
+                    </div>
+                    <!-- Back Side -->
+                  </div>
+                </div>
+                <!-- Rotating card -->
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row d-flex justify-content-center">
+              <!-- Grid column -->
+              <div class="col-md-4 mb-4">
+                <!-- Rotating card -->
+                <div class="card-wrapper">
+                  <div id="card-4" class="card card-rotating text-center wow fadeInLeftBig">
+                    <!-- Front Side -->
+                    <div class="face-front">
+                      <!-- Image -->
+                      <div class="card-up mx-auto">
+                        <img class="img-fluid mx-auto" src="/img/team/back.jpg" alt="Team member card image">
+                      </div>
+                      <!-- Avatar -->
+                      <div class="mini-avatar mx-auto">
+                        <img src="/img/team/keyla-avila.jpg" class="rounded-circle img-fluid" alt="photo-key">
+                      </div>
+                      <!-- Content -->
+                      <div class="card-body pt-0">
+                        <h4 class="font-weight-bold mt-1 mb-3">Keyla Ávila</h4>
+                        <h6 class="font-weight-bold dark-grey-text">Artista en SouFUN</h6>
+                        <h6><a href="mailto:keylavila@soufunstudio.com" class="font-weight-bold dark-grey-text small">keylavila@soufunstudio.com</a></h6>
+                        <p><small class="text-muted">Diseñadora Gráfica e Illustradora</small></p>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn grey-text" data-card="card-4">
+                          <i class="fas fa-redo-alt grey-text mr-2"></i>Más Info</a>
+                      </div>
+                    </div>
+                    <!-- Front Side -->
+                    <!-- Back Side -->
+                    <div class="face-back">
+                      <!-- Content -->
+                      <div class="card-body">
+                        <!-- Content -->
+                        <h4 class="font-weight-bold mt-4 mb-2">
+                          <strong>Sobre mí</strong>
+                        </h4>
+                        <hr>
+                        <p>Me gusta darle a Photoshop, Illustrator, InDesign, Blender,
+                          Krita y CCS. Fascinada por el Arte Conceptual, siempre dispuesta a aprender.
+                        </p>
+                        <hr>
+                        <!-- Social Icons -->
+                        <ul class="list-inline list-unstyled text-white">
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/pildoritakey/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram mr-2"></i>pildoritakey
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn text-white" data-card="card-4">
+                          <i class="fas fa-redo-alt text-white mr-2"></i>Regresar</a>
+                      </div>
+                    </div>
+                    <!-- Back Side -->
+                  </div>
+                </div>
+                <!-- Rotating card -->
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 mb-4">
+                <!-- Rotating card -->
+                <div class="card-wrapper">
+                  <div id="card-5" class="card card-rotating text-center wow fadeInRightBig">
+                    <!-- Front Side -->
+                    <div class="face-front">
+                      <!-- Image -->
+                      <div class="card-up mx-auto">
+                        <img class="img-fluid mx-auto" src="/img/team/back.jpg" alt="Team member card image">
+                      </div>
+                      <!-- Avatar -->
+                      <div class="mini-avatar mx-auto">
+                        <img src="/img/team/victor-sarabia.jpg" class="rounded-circle img-fluid" alt="photo-vic">
+                      </div>
+                      <!-- Content -->
+                      <div class="card-body pt-0">
+                        <h4 class="font-weight-bold mt-1 mb-3">Victor Sarabia</h4>
+                        <h6 class="font-weight-bold dark-grey-text">Artista en SouFUN</h6>
+                        <h6><a href="mailto:dgsarabia@soufunstudio.com" class="font-weight-bold dark-grey-text small">dgsarabia@soufunstudio.com</a></h6>
+                        <p><small class="text-muted">Diseñador Multimedia</small></p>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn grey-text" data-card="card-5">
+                          <i class="fas fa-redo-alt grey-text mr-2"></i>Más Info</a>
+                      </div>
+                    </div>
+                    <!-- Front Side -->
+                    <!-- Back Side -->
+                    <div class="face-back">
+                      <!-- Content -->
+                      <div class="card-body">
+                        <!-- Content -->
+                        <h4 class="font-weight-bold mt-4 mb-2">
+                          <strong>Sobre mí</strong>
+                        </h4>
+                        <hr>
+                        <p>Me muevo mejor en Photoshop, Illustrator y After Effects.
+                          Mi especialidad es la Edicion Fotográfica. Amante del universo, me gustan los deportes, la naturaleza,
+                          los libros y gastar horas jugando un buen shooter.
+                        </p>
+                        <hr>
+                        <!-- Social Icons -->
+                        <ul class="list-inline list-unstyled text-white">
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/sarabia_design/" target="_blank" class="p-2 fa-lg ins-ic text-reset">
+                              <i class="fab fa-instagram mr-2"></i>sarabia_design
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- Triggering button -->
+                        <a class="rotate-btn text-white" data-card="card-5">
+                          <i class="fas fa-redo-alt text-white mr-2"></i>Regresar</a>
+                      </div>
+                    </div>
+                    <!-- Back Side -->
+                  </div>
+                </div>
+                <!-- Rotating card -->
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </section>
+          <!--Section: Team-->
+        </div>
+        <!--Container Team Cards-->
+      </div>
+      <!--About container-->
+    </div>
+    <!--Main container-->
+  </main>
+  <!--Main layout-->
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small elegant-color-dark pt-4" id="footerPage">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase">Conéctate con nosotros! <i class="fas fa-heart red-text mx-1"></i> </h5>
+          <!-- Grid column -->
+          <div class="col-md-12 py-4">
+            <div class="mb-5 hoverable-icon">
+
+              <!-- Facebook -->
+              <a class="fb-ic" href="https://www.facebook.com/soufunstudio/" target="_blank">
+                <i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic" href="https://twitter.com/SouFUNStudio" target="_blank">
+                <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!-- Instagram -->
+              <a class="ins-ic" href="https://www.instagram.com/soufunstudio/" target="_blank">
+                <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-uppercase">Contáctanos</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="https://web.whatsapp.com" target="_blank"><i class="fas fa-phone-alt"></i> +521 5515990967</a>
+            </li>
+            <li>
+              <a href="mailto:contact@soufunstudio.com">contact@soufunstudio.com</a>
+            </li>
+            <li>
+              <a href="contact.html">Av. San Francisco Tlaltenco
+                Ciudad de México, Cd. de México</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5>SouFun Studio</h5>
+          <ul class="list-unstyled hoverable-text">
+            <li>
+              <a href="frontend/commons/privacy_policy.html">Política de privacidad</a>
+            </li>
+            <li>
+              <a href="frontend/commons/terms_of_use.html">Términos de uso</a>
+            </li>
+            <li>
+              <a href="contact.html">Mapa del sitio</a>
+            </li>
+            <li>
+              <a href="frontend/info/faqs.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 list-unstyled">
+      <ul class="list-inline hoverable-text">
+        <li class="list-inline-item">
+          <a href="http://soufunstudio.com">© 2020 Copyright: soufunstudio.com</a>
+        </li>
+        <li class="list-inline-item">
+          <img src="/img/brand/soufun-solid-logo.png" class="img-fluid" alt="soufun-solid-logo"></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL" target="_blank">La fuente Sen tiene licencia bajo OFL.</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/js/mdb.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+  <!-- Custom scripts (optional) -->
+  <script type="text/javascript" src="/js/new-age.min.js"></script>
+  <script type="text/javascript" src="/js/yanger.js"></script>
+
+  <!--Modal: modalCookie-->
+  <div class="modal fade bottom cookieModal" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="cookieModalLabel" aria-hidden="true" data-backdrop="true">
+    <div class="modal-dialog modal-frame modal-bottom modal-notify modal-info" role="document">
+      <!--Content-->
+      <div class="modal-content elegant-color-dark">
+        <!--Body-->
+        <div class="modal-body">
+          <div class="row d-flex justify-content-center align-items-center">
+
+            <p class="pt-3 pr-2 white-text">Utilizamos cookies para mejorar la experiencia del sitio web.</p>
+
+            <a type="button" href="frontend/commons/privacy_policy.html" class="btn btn-outline-cookies waves-effect">Saber más<i class="fas fa-book ml-1"></i></a>
+            <a type="button" id="cookieModalConsent" class="btn btn-outline-cookies waves-effect" data-dismiss="modal">Si, gracias</a>
+          </div>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: modalCookie-->
+  <script type="text/javascript" src="/js/cookie-consent.js"></script>
+
+
+</body>
+
+</html>
